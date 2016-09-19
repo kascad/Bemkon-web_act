@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="???"?>
+<DedtPayments>
+	<DedtPayment>
+		<INN>432431</INN>
+		<NameOfficial>dsafds</NameOfficial>
+		<Date>12.01.2010 12:13:00<Date>
+		<Amount>
+		<PaymentNumber>
+		<PaymentReason>
+		<FullOperationCode>	
+	</DedtPayment>
+</DedtPayments>
+
+<Archiv>
+  <name>Archives\NewTest.arh</name>
+  <Examinees>
+    <Examinee>
+      <ID>3</ID>
+      <Name>Penrov</Name>
+      <Description>
+      </Description>
+      <Tests>        
+        <Test>
+          <ID>51</ID>
+          <Name>BIK</Name>
+          <FullTime />
+          <Date>21.07.2010 22:28:47</Date>
+          <IsFinished>false</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>28</QuestID>
+              <QuestText>Общая характеристика жизненного пути</QuestText>
+              <AnsID>225</AnsID>
+              <AnsText>окончил(а) несколько курсов вуза и работал(а)</AnsText>
+              <AnsNumber>8</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>85</QuestID>
+              <QuestText>Служили ли Вы в армии и какое у Вас воинское звание? Отвечают и мужчины и женщины. Если женщина: 11 - военнообязанная 12 - не служила и не являюсь военнообязанной</QuestText>
+              <AnsID>723</AnsID>
+              <AnsText>звание старшего офицера</AnsText>
+              <AnsNumber>8</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>136</QuestID>
+              <QuestText>Среднемесячный заработок (доход) на данный момент в количестве минимальных окладов. В настоящее время это 8 тысяч рублей.</QuestText>
+              <AnsID>1153</AnsID>
+              <AnsText>от 8 до 12 минимальных окладов</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>3</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>175</QuestID>
+              <QuestText>Отрасль народного хозяйства, в которой работаете (работали):</QuestText>
+              <AnsID>1574</AnsID>
+              <AnsText>сфера обслуживания</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>4</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>220</QuestID>
+              <QuestText>Отрасль народного хозяйства в которой работал большую часть жизни Ваш отец:</QuestText>
+              <AnsID>2038</AnsID>
+              <AnsText>сфера обслуживания</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>5</QuestNumber>
+            </Result>
+          </Results>
+        </Test>		
+      </Tests>
+    </Examinee>    
+  </Examinees>
+</Archiv>

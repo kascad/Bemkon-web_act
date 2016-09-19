@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Main.master" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="ProfessorTesting.Default" %>
+<%@ Register TagPrefix="uc" TagName="MenuLogin" Src="~/Controls/MenuLogin.ascx" %>
+
+<asp:Content runat="server" ID="Head" ContentPlaceHolderID="Head">
+    <asp:ContentPlaceHolder runat="server" ID="HeadPH"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content runat="server" ContentPlaceHolderID="HorMenu2" ID="HorMenu">
+    <a href="/ShoppingCart.aspx" target="_blank"><span class="menu_link"><asp:Literal runat="server" ID="CartInfo"></asp:Literal></span>&nbsp;<img src="/Images/cart.png" alt="Корзина окупок" /></a>
+</asp:Content>
+<asp:Content ID="HorMenuModule" ContentPlaceHolderID="HorMenuModule" runat="server">
+    <asp:Menu runat="server" ID="TopMenu" DataSourceID="TopMenuDS" Orientation="Horizontal" RenderingMode="List" CssClass="top_menu"></asp:Menu>
+    <asp:SiteMapDataSource runat="server" ID="TopMenuDS" ShowStartingNode="false" />
+</asp:Content>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="HedearLeftMenu" ContentPlaceHolderID="HedearLeftMenu" runat="server">
+    Авторизация
+</asp:Content>
+<asp:Content ID="ContentLeftMenu" ContentPlaceHolderID="ContentLeftMenu" runat="server">
+    <uc:MenuLogin id="BlockMenu1" runat="server" />
+</asp:Content>

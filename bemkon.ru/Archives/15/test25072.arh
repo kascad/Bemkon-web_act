@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Archiv>
+  <name>C:\Users\admin\YandexDisk\bemkon.ru\Code\Bemkon-web_act\bemkon.ru\Archives\15\test25072.arh</name>
+  <Examinees>
+    <Examinee>
+      <ID>1</ID>
+      <Name>test</Name>
+      <Description>
+      </Description>
+      <Tests>
+        <Test>
+          <ID>118</ID>
+          <Name>SDB</Name>
+          <FullTime />
+          <Date>25.07.2016 12:18:31</Date>
+          <IsFinished>false</IsFinished>
+          <Results />
+        </Test>
+      </Tests>
+    </Examinee>
+  </Examinees>
+</Archiv>

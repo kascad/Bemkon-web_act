@@ -1,0 +1,850 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Archiv>
+  <name>Archives\NewTest.arh</name>
+  <Examinees>
+    <Examinee>
+      <ID>1</ID>
+      <Name>Ivan Grozniy</Name>
+      <Description>
+      </Description>
+      <Tests>
+        <Test>
+          <ID>48</ID>
+          <Name>SSR</Name>
+          <FullTime />
+          <Date>08.07.2010 23:15:06</Date>
+          <IsFinished>false</IsFinished>
+          <Results />
+        </Test>
+        <Test>
+          <ID>40</ID>
+          <Name>LIR</Name>
+          <FullTime />
+          <Date>17.07.2010 12:29:43</Date>
+          <IsFinished>false</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>15</QuestID>
+              <QuestText>КАК ДУМАЮТ, на Ваш взгляд, О ВАС ДРУГИЕ: Они думают о Вас БЛАГОСКЛОННО.</QuestText>
+              <AnsID>81</AnsID>
+              <AnsText>нет или трудно оценить, отказ от ответа и т.д.</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>78</QuestID>
+              <QuestText>Окружающие думают: ПРОИЗВОДИТ ВПЕЧАТЛЕНИЕ НА ДРУГИХ.</QuestText>
+              <AnsID>585</AnsID>
+              <AnsText>нет или трудно оценить, отказ от ответа и т.д.</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>125</QuestID>
+              <QuestText>Они, на Ваш взгляд, считают оценивая Вас: УМЕЕТ РАСПОРЯЖАТЬСЯ, ПРИКАЗЫВАТЬ.</QuestText>
+              <AnsID>1010</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:05</Time>
+              <QuestNumber>3</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+        <Test>
+          <ID>38</ID>
+          <Name>AL1</Name>
+          <FullTime />
+          <Date>17.07.2010 13:36:34</Date>
+          <IsFinished>false</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>21</QuestID>
+              <QuestText>Какой из данных цветов Вы предпочтете?</QuestText>
+              <AnsID>14</AnsID>
+              <AnsText>c1.jpg</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+        <Test>
+          <ID>5</ID>
+          <Name>BS1</Name>
+          <FullTime />
+          <Date>21.07.2010 21:46:33</Date>
+          <IsFinished>false</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>29</QuestID>
+              <QuestText>Общая характеристика жизненного пути</QuestText>
+              <AnsID>84</AnsID>
+              <AnsText>окончил (а) 7-9 кл. (нет аттестата) и работал (а)</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>66</QuestID>
+              <QuestText>Какой год подряд Вы являетесь учащимся (щейся)? Пояснение: если Вы школьник (школьница),то в каком классе учитесь? Если Вы учитесь в лицее, училище и т.д., то прибавьте к количеству законченных классов количество лет учебы после школы.</QuestText>
+              <AnsID>674</AnsID>
+              <AnsText>пятый год</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:11</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>127</QuestID>
+              <QuestText>Подрабатываете ли Вы (любыми путями) ? Если да, то каков Ваш самостоятельный денежный доход в месяц?</QuestText>
+              <AnsID>1103</AnsID>
+              <AnsText>около 3 тысяч в месяц</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>3</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>183</QuestID>
+              <QuestText>Сколько денег на карманные расходы Вы получаете в среднем в месяц от родителей?</QuestText>
+              <AnsID>1531</AnsID>
+              <AnsText>около 4 тысяч</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>4</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+        <Test>
+          <ID>20</ID>
+          <Name>PE2</Name>
+          <FullTime />
+          <Date>21.07.2010 21:59:16</Date>
+          <IsFinished>false</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>34</QuestID>
+              <QuestText>Почерк твердый?</QuestText>
+              <AnsID>80</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+        <Test>
+          <ID>21</ID>
+          <Name>PE3</Name>
+          <FullTime />
+          <Date>21.07.2010 22:27:57</Date>
+          <IsFinished>false</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>41</QuestID>
+              <QuestText>Физически привлекателен?</QuestText>
+              <AnsID>68</AnsID>
+              <AnsText>не очень</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>91</QuestID>
+              <QuestText>Ходит быстро?</QuestText>
+              <AnsID>624</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>133</QuestID>
+              <QuestText>Руки держит в карманах?</QuestText>
+              <AnsID>1102</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>3</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+      </Tests>
+    </Examinee>
+    <Examinee>
+      <ID>2</ID>
+      <Name>ivan grozniys</Name>
+      <Description>
+      </Description>
+      <Tests>
+        <Test>
+          <ID>21</ID>
+          <Name>PE3</Name>
+          <FullTime />
+          <Date>08.07.2010 23:20:46</Date>
+          <IsFinished>false</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>41</QuestID>
+              <QuestText>Физически привлекателен?</QuestText>
+              <AnsID>68</AnsID>
+              <AnsText>не очень</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>91</QuestID>
+              <QuestText>Ходит быстро?</QuestText>
+              <AnsID>647</AnsID>
+              <AnsText>иной ответ</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>133</QuestID>
+              <QuestText>Руки держит в карманах?</QuestText>
+              <AnsID>1052</AnsID>
+              <AnsText>иногда</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>3</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>179</QuestID>
+              <QuestText>Плечи опущены?</QuestText>
+              <AnsID>1498</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>4</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>197</QuestID>
+              <QuestText>Глядит себе под ноги?</QuestText>
+              <AnsID>1926</AnsID>
+              <AnsText>иногда</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>5</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>264</QuestID>
+              <QuestText>Осанка</QuestText>
+              <AnsID>2545</AnsID>
+              <AnsText>сутулая</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>6</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>291</QuestID>
+              <QuestText>Взгляд скользящий, бегающий?</QuestText>
+              <AnsID>2925</AnsID>
+              <AnsText>иногда</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:05</Time>
+              <QuestNumber>7</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>337</QuestID>
+              <QuestText>Взгляд рассеянный?</QuestText>
+              <AnsID>3242</AnsID>
+              <AnsText>иногда</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>8</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>410</QuestID>
+              <QuestText>Смотрит "свысока"?</QuestText>
+              <AnsID>3684</AnsID>
+              <AnsText>иногда</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>9</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>462</QuestID>
+              <QuestText>Часто опускает глаза во время разговора?</QuestText>
+              <AnsID>4089</AnsID>
+              <AnsText>иной ответ</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:04</Time>
+              <QuestNumber>10</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+        <Test>
+          <ID>53</ID>
+          <Name>BKD</Name>
+          <FullTime />
+          <Date>09.07.2010 13:34:20</Date>
+          <IsFinished>false</IsFinished>
+          <Results />
+        </Test>
+        <Test>
+          <ID>38</ID>
+          <Name>AL1</Name>
+          <FullTime>00:00:25</FullTime>
+          <Date>21.07.2010 22:10:11</Date>
+          <IsFinished>true</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>21</QuestID>
+              <QuestText>Какой из данных цветов Вы предпочтете?</QuestText>
+              <AnsID>60</AnsID>
+              <AnsText>c2.jpg</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:09</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>67</QuestID>
+              <QuestText>Какой из данных цветов Вы предпочтете теперь?</QuestText>
+              <AnsID>687</AnsID>
+              <AnsText>c6.jpg</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>96</QuestID>
+              <QuestText>А теперь?</QuestText>
+              <AnsID>997</AnsID>
+              <AnsText>c1.jpg</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>3</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>143</QuestID>
+              <QuestText>А теперь какой цвет как более предпочтительный Вы выберите из оставшихся?</QuestText>
+              <AnsID>1547</AnsID>
+              <AnsText>c5.jpg</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>4</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>196</QuestID>
+              <QuestText>Выберите еще раз более предпочтительный цвет из оставшихся.</QuestText>
+              <AnsID>1995</AnsID>
+              <AnsText>c4.jpg</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>5</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>248</QuestID>
+              <QuestText>Еще раз...</QuestText>
+              <AnsID>2216</AnsID>
+              <AnsText>c0.jpg</AnsText>
+              <AnsNumber>0</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>6</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>297</QuestID>
+              <QuestText>Еще раз... Спасибо.</QuestText>
+              <AnsID>2912</AnsID>
+              <AnsText>c3.jpg</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>7</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>370</QuestID>
+              <QuestText>Последний раз... Спасибо.</QuestText>
+              <AnsID>3305</AnsID>
+              <AnsText>c6.jpg</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>00:00:05</Time>
+              <QuestNumber>8</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+        <Test>
+          <ID>14</ID>
+          <Name>IN1</Name>
+          <FullTime />
+          <Date>21.07.2010 22:10:42</Date>
+          <IsFinished>false</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>1</QuestID>
+              <QuestText>А больше Б в 9 раз Выберите нужный ответ. Б меньше В в 4 раза -------------------- В ? А</QuestText>
+              <AnsID>63</AnsID>
+              <AnsText>В &lt; Б</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>48</QuestID>
+              <QuestText>А меньше Б в 10 раз Б больше В в 6 раз -------------------- А ? В</QuestText>
+              <AnsID>558</AnsID>
+              <AnsText>А &gt; В</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:04</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+        <Test>
+          <ID>54</ID>
+          <Name>BRA</Name>
+          <FullTime />
+          <Date>21.07.2010 22:41:27</Date>
+          <IsFinished>false</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>36</QuestID>
+              <QuestText>Скажите, пожалуйста, какие проблемы в настоящее время Вас волнуют более всего в личном плане?</QuestText>
+              <AnsID>160</AnsID>
+              <AnsText>производства</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:11</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+      </Tests>
+    </Examinee>
+    <Examinee>
+      <ID>3</ID>
+      <Name>Penrov</Name>
+      <Description>
+      </Description>
+      <Tests>
+        <Test>
+          <ID>20</ID>
+          <Name>PE2</Name>
+          <FullTime />
+          <Date>21.07.2010 22:25:26</Date>
+          <IsFinished>false</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>34</QuestID>
+              <QuestText>Почерк твердый?</QuestText>
+              <AnsID>116</AnsID>
+              <AnsText>иногда</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>51</QuestID>
+              <QuestText>Бледный?</QuestText>
+              <AnsID>612</AnsID>
+              <AnsText>иногда</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:04</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+        <Test>
+          <ID>17</ID>
+          <Name>IN4</Name>
+          <FullTime />
+          <Date>21.07.2010 22:25:42</Date>
+          <IsFinished>false</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>9</QuestID>
+              <QuestText>Выберите верный ответ: 
+ВСЕ МЕТАЛЛЫ ПРОВОДЯТ ЭЛЕКТРИЧЕСТВО.
+РТУТЬ - МЕТАЛЛ.
+СЛЕДОВАТЕЛЬНО,РТУТЬ ПРОВОДИТ ЭЛЕКТРИЧЕСТВО</QuestText>
+              <AnsID>70</AnsID>
+              <AnsText>неверно</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>53</QuestID>
+              <QuestText>ВСЕ АРАБЫ СМУГЛЫ. 
+АХМЕД СМУГЛ.
+СЛЕДОВАТЕЛЬНО, АХМЕД - АРАБ.</QuestText>
+              <AnsID>574</AnsID>
+              <AnsText>неверно</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>121</QuestID>
+              <QuestText>НЕКОТОРЫЕРАЗВИТЫЕ СТРАНЫ ПОКУПАЮТ ВООРУЖЕНИЕ УРОССИИ. 
+ЯПОНИЯ -РАЗВИТАЯ СТРАНА. 
+СЛЕДОВАТЕЛЬНО, ЯПОНИЯ ПОКУПАЕТ ВООРУЖЕНИЕ УРОССИИ.</QuestText>
+              <AnsID>1005</AnsID>
+              <AnsText>верно</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>3</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>173</QuestID>
+              <QuestText>НЕКОТОРЫЕ СТУДЕНТЫ НЕ ПОЛУЧАЮТ СТИПЕНДИЮ. 
+ИВАНОВ НЕ ПОЛУЧАЕТ СТИПЕНДИЮ.
+СЛЕДОВАТЕЛЬНО, ИВАНОВ - СТУДЕНТ.</QuestText>
+              <AnsID>1456</AnsID>
+              <AnsText>неверно</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:04</Time>
+              <QuestNumber>4</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>193</QuestID>
+              <QuestText>ВСЕ СОЧИНЕНИЯ ПУШКИНА НЕЛЬЗЯ ПРОЧИТАТЬ ЗА ОДНУ НОЧЬ. 
+"МЕДНЫЙ ВСАДНИК" - СОЧИНЕНИЕ ПУШКИНА.
+СЛЕДОВАТЕЛЬНО,"МЕДНЫЙ ВСАДНИК" НЕЛЬЗЯ ПРОЧИТАТЬ ЗА ОДНУ НОЧЬ</QuestText>
+              <AnsID>1930</AnsID>
+              <AnsText>неверно</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:08</Time>
+              <QuestNumber>5</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>261</QuestID>
+              <QuestText>МОШЕННИЧЕСТВО КАРАЕТСЯ УГОЛОВНОЙ ОТВЕТСТВЕННОСТЬЮ. 
+ПЕТРОВ МОШЕННИЧЕСТВОМ НЕ ЗАНИМАЛСЯ. 
+СЛЕДОВАТЕЛЬНО, ПЕТРОВ НЕ ПРИВЛЕЧЕН К УГОЛОВНОЙ ОТВЕТСТВЕННОСТИ.</QuestText>
+              <AnsID>2462</AnsID>
+              <AnsText>неверно</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>6</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+        <Test>
+          <ID>21</ID>
+          <Name>PE3</Name>
+          <FullTime />
+          <Date>21.07.2010 22:26:14</Date>
+          <IsFinished>false</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>41</QuestID>
+              <QuestText>Физически привлекателен?</QuestText>
+              <AnsID>68</AnsID>
+              <AnsText>не очень</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>91</QuestID>
+              <QuestText>Ходит быстро?</QuestText>
+              <AnsID>624</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>133</QuestID>
+              <QuestText>Руки держит в карманах?</QuestText>
+              <AnsID>1102</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>3</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>179</QuestID>
+              <QuestText>Плечи опущены?</QuestText>
+              <AnsID>1527</AnsID>
+              <AnsText>иной ответ</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>4</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+        <Test>
+          <ID>50</ID>
+          <Name>BIA</Name>
+          <FullTime />
+          <Date>21.07.2010 22:28:14</Date>
+          <IsFinished>false</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>27</QuestID>
+              <QuestText>Общая характеристика жизненного пути</QuestText>
+              <AnsID>83</AnsID>
+              <AnsText>окончил (а) 7-9 кл. (нет аттестата) и работал (а)</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>84</QuestID>
+              <QuestText>Служили ли Вы в армии и какое у Вас воинское звание? Отвечают и мужчины и женщины. Если женщина: 11 - военнообязанная 12 - не служила и не являюсь военнообязанной</QuestText>
+              <AnsID>652</AnsID>
+              <AnsText>сержант, старший сержант</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>137</QuestID>
+              <QuestText>Среднемесячный заработок (доход) на данный момент от средне-месячного заработка по стране. В настоящее время он составляет около 100 тысяч рублей в месяц</QuestText>
+              <AnsID>1152</AnsID>
+              <AnsText>от 61 до 1ОО%</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>3</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>174</QuestID>
+              <QuestText>Отрасль народного хозяйства, в которой работаете (работали):</QuestText>
+              <AnsID>1573</AnsID>
+              <AnsText>сфера обслуживания</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>4</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>219</QuestID>
+              <QuestText>Отрасль народного хозяйства в которой работал большую часть жизни Ваш отец:</QuestText>
+              <AnsID>2087</AnsID>
+              <AnsText>отец служит(жил) армии, флоте, ВВ, МБРФ(КГБ) и др.</AnsText>
+              <AnsNumber>12</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>5</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>266</QuestID>
+              <QuestText>Отрасль народного хозяйства, в которой работала большую часть жизни Ваша мать:</QuestText>
+              <AnsID>2599</AnsID>
+              <AnsText>наука, культура, искусство</AnsText>
+              <AnsNumber>8</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>6</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>308</QuestID>
+              <QuestText>Наличие специальности и как Вы ее оцениваете:</QuestText>
+              <AnsID>2953</AnsID>
+              <AnsText>есть, но она не удовлетворяет</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>7</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>359</QuestID>
+              <QuestText>Наличие собственной семьи:</QuestText>
+              <AnsID>3325</AnsID>
+              <AnsText>разведен, плачу элементы</AnsText>
+              <AnsNumber>7</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>8</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>412</QuestID>
+              <QuestText>Средний балл в аттестате о среднем образовании или в дипломе об окончании среднего специального учебного заведения:</QuestText>
+              <AnsID>3690</AnsID>
+              <AnsText>от 4 до 4,5 (включительно)</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>9</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+        <Test>
+          <ID>51</ID>
+          <Name>BIK</Name>
+          <FullTime />
+          <Date>21.07.2010 22:28:47</Date>
+          <IsFinished>false</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>28</QuestID>
+              <QuestText>Общая характеристика жизненного пути</QuestText>
+              <AnsID>225</AnsID>
+              <AnsText>окончил(а) несколько курсов вуза и работал(а)</AnsText>
+              <AnsNumber>8</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>85</QuestID>
+              <QuestText>Служили ли Вы в армии и какое у Вас воинское звание? Отвечают и мужчины и женщины. Если женщина: 11 - военнообязанная 12 - не служила и не являюсь военнообязанной</QuestText>
+              <AnsID>723</AnsID>
+              <AnsText>звание старшего офицера</AnsText>
+              <AnsNumber>8</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>136</QuestID>
+              <QuestText>Среднемесячный заработок (доход) на данный момент в количестве минимальных окладов. В настоящее время это 8 тысяч рублей.</QuestText>
+              <AnsID>1153</AnsID>
+              <AnsText>от 8 до 12 минимальных окладов</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>3</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>175</QuestID>
+              <QuestText>Отрасль народного хозяйства, в которой работаете (работали):</QuestText>
+              <AnsID>1574</AnsID>
+              <AnsText>сфера обслуживания</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>4</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>220</QuestID>
+              <QuestText>Отрасль народного хозяйства в которой работал большую часть жизни Ваш отец:</QuestText>
+              <AnsID>2038</AnsID>
+              <AnsText>сфера обслуживания</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>5</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+      </Tests>
+    </Examinee>
+    <Examinee>
+      <ID>4</ID>
+      <Name>Testov</Name>
+      <Description>
+      </Description>
+      <Tests>
+        <Test>
+          <ID>21</ID>
+          <Name>PE3</Name>
+          <FullTime />
+          <Date>21.07.2010 22:34:17</Date>
+          <IsFinished>false</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>41</QuestID>
+              <QuestText>Физически привлекателен?</QuestText>
+              <AnsID>68</AnsID>
+              <AnsText>не очень</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:07</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>91</QuestID>
+              <QuestText>Ходит быстро?</QuestText>
+              <AnsID>624</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+        <Test>
+          <ID>34</ID>
+          <Name>PE1</Name>
+          <FullTime />
+          <Date>21.07.2010 22:34:45</Date>
+          <IsFinished>false</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>22</QuestID>
+              <QuestText>Лицо треугольное?</QuestText>
+              <AnsID>79</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>68</QuestID>
+              <QuestText>Лицо круглое?</QuestText>
+              <AnsID>583</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>115</QuestID>
+              <QuestText>Лицо квадратное?</QuestText>
+              <AnsID>1069</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>3</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+        <Test>
+          <ID>5</ID>
+          <Name>BS1</Name>
+          <FullTime />
+          <Date>21.07.2010 22:41:52</Date>
+          <IsFinished>false</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>29</QuestID>
+              <QuestText>Общая характеристика жизненного пути</QuestText>
+              <AnsID>150</AnsID>
+              <AnsText>закончил(а) школу (законч.ср.образование),работал(а)</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:09</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>66</QuestID>
+              <QuestText>Какой год подряд Вы являетесь учащимся (щейся)? Пояснение: если Вы школьник (школьница),то в каком классе учитесь? Если Вы учитесь в лицее, училище и т.д., то прибавьте к количеству законченных классов количество лет учебы после школы.</QuestText>
+              <AnsID>674</AnsID>
+              <AnsText>пятый год</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:09</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>127</QuestID>
+              <QuestText>Подрабатываете ли Вы (любыми путями) ? Если да, то каков Ваш самостоятельный денежный доход в месяц?</QuestText>
+              <AnsID>1179</AnsID>
+              <AnsText>около 7 тысяч</AnsText>
+              <AnsNumber>7</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>3</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>183</QuestID>
+              <QuestText>Сколько денег на карманные расходы Вы получаете в среднем в месяц от родителей?</QuestText>
+              <AnsID>1499</AnsID>
+              <AnsText>около 3 тысяч в месяц</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>4</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>223</QuestID>
+              <QuestText>Отрасль народного хозяйства, в которой работал большую часть жизни Ваш отец:</QuestText>
+              <AnsID>2029</AnsID>
+              <AnsText>торговля</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>5</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>270</QuestID>
+              <QuestText>Отрасль народного хозяйства, в которой работала большую часть жизни Ваша мать:</QuestText>
+              <AnsID>2590</AnsID>
+              <AnsText>здравоохранение, просвещение</AnsText>
+              <AnsNumber>7</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>6</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+      </Tests>
+    </Examinee>
+  </Examinees>
+</Archiv>

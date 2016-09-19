@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Archiv>
+  <name>D:\Professor\professor.win\ProfessorTestingWeb\Archives\18\TestArchive.arh</name>
+  <Examinees>
+    <Examinee>
+      <ID>1</ID>
+      <Name>Кирилл</Name>
+      <Description>
+      </Description>
+      <Tests>
+        <Test>
+          <ID>87</ID>
+          <Name>SD1</Name>
+          <FullTime />
+          <Date>21.05.2014 1:18:04</Date>
+          <IsFinished>false</IsFinished>
+          <Results />
+        </Test>
+        <Test>
+          <ID>50</ID>
+          <Name>BIA</Name>
+          <FullTime />
+          <Date>21.05.2014 1:18:44</Date>
+          <IsFinished>false</IsFinished>
+          <Results />
+        </Test>
+        <Test>
+          <ID>85</ID>
+          <Name>S31</Name>
+          <FullTime>00:00:18</FullTime>
+          <Date>24.05.2016 18:15:07</Date>
+          <IsFinished>true</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>4429</QuestID>
+              <QuestText>Определите, как понятие ПРЕУСПЕВАНИЕ связано с двумя другими, к какому оно ближе: СПОКОЙНЫЙ-ОЖИВЛЕННЫЙ</QuestText>
+              <AnsID>27094</AnsID>
+              <AnsText>Почти полное совпадение с левым понятием</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4433</QuestID>
+              <QuestText>ПРЕУСПЕВАНИЕ: ПРЕДУПРЕДИТЕЛЬНЫЙ-БЕСЦЕРЕМОННЫЙ</QuestText>
+              <AnsID>27126</AnsID>
+              <AnsText>почти полное совпадение с правым понятием</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4437</QuestID>
+              <QuestText>ПРЕУСПЕВАНИЕ: УВЕРЕНННЫЙ-НЕУВЕРЕННЫЙ</QuestText>
+              <AnsID>27151</AnsID>
+              <AnsText>некоторое совпадение с левым понятием</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>3</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4441</QuestID>
+              <QuestText>НЕДЕЛОВОЙ-ДЕЛОВИТЫЙ</QuestText>
+              <AnsID>27181</AnsID>
+              <AnsText>некоторое совпадение с правым понятием</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>4</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4445</QuestID>
+              <QuestText>ЗЛОВРЕДНЫЙ-ДОБРОДУШНЫЙ</QuestText>
+              <AnsID>27210</AnsID>
+              <AnsText>почти полное совпадение с правым понятием</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>0:0:3</Time>
+              <QuestNumber>5</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4449</QuestID>
+              <QuestText>ПОДЧИНЯЮЩИЙСЯ-ДОМИНИРУЮЩИЙ</QuestText>
+              <AnsID>27238</AnsID>
+              <AnsText>почти полное совпадение с правым понятием</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>0:0:3</Time>
+              <QuestNumber>6</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4453</QuestID>
+              <QuestText>НАСТОЯЩИЙ-НЕНАСТОЯЩИЙ</QuestText>
+              <AnsID>27264</AnsID>
+              <AnsText>одинаково удалено от обоих понятий</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>0:0:3</Time>
+              <QuestNumber>7</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4457</QuestID>
+              <QuestText>ОТКРОВЕННЫЙ-НЕОТКРОВЕННЫЙ</QuestText>
+              <AnsID>27291</AnsID>
+              <AnsText>некоторое совпадение с левым понятием</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>0:0:3</Time>
+              <QuestNumber>8</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4461</QuestID>
+              <QuestText>САМОСТОЯТЕЛЬНЫЙ-НЕСАМОСТОЯТЕЛЬНЫЙ</QuestText>
+              <AnsID>27318</AnsID>
+              <AnsText>почти полное совпадение с левым понятием</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>0:0:3</Time>
+              <QuestNumber>9</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4465</QuestID>
+              <QuestText>ИМПУЛЬСИВНЫЙ-УРАВНОВЕШЕННЫЙ</QuestText>
+              <AnsID>27347</AnsID>
+              <AnsText>некоторое совпадение с левым понятием</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>0:0:3</Time>
+              <QuestNumber>10</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4469</QuestID>
+              <QuestText>НЕСИМПАТИЧНЫЙ-СИМПАТИЧНЫЙ</QuestText>
+              <AnsID>27376</AnsID>
+              <AnsText>одинаково удалено от обоих понятий</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>0:0:3</Time>
+              <QuestNumber>11</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4473</QuestID>
+              <QuestText>ПОДАТЛИВЫЙ-ПРОБИВНОЙ</QuestText>
+              <AnsID>27403</AnsID>
+              <AnsText>некоторое совпадение с левым понятием</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>0:0:3</Time>
+              <QuestNumber>12</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4430</QuestID>
+              <QuestText>Определите, как понятие НЕУДАЧА с двумя другими, к какому оно ближе: СПОКОЙНЫЙ-ОЖИВЛЕННЫЙ</QuestText>
+              <AnsID>27104</AnsID>
+              <AnsText>Некоторое совпадение с правым понятием</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>0:0:3</Time>
+              <QuestNumber>13</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4434</QuestID>
+              <QuestText>ПРЕДУПРЕДИТЕЛЬНЫЙ-БЕСЦЕРЕМОННЫЙ</QuestText>
+              <AnsID>27129</AnsID>
+              <AnsText>почти полное совпадение с левым понятием</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>0:0:3</Time>
+              <QuestNumber>14</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4438</QuestID>
+              <QuestText>УВЕРЕНННЫЙ-НЕУВЕРЕННЫЙ</QuestText>
+              <AnsID>27156</AnsID>
+              <AnsText>весьма полное совпадение с левым понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:3</Time>
+              <QuestNumber>15</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4442</QuestID>
+              <QuestText>НЕДЕЛОВОЙ-ДЕЛОВИТЫЙ</QuestText>
+              <AnsID>27190</AnsID>
+              <AnsText>весьма полное совпадение с правым понятием</AnsText>
+              <AnsNumber>7</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>16</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4446</QuestID>
+              <QuestText>ЗЛОВРЕДНЫЙ-ДОБРОДУШНЫЙ</QuestText>
+              <AnsID>27217</AnsID>
+              <AnsText>почти полное совпадение с правым понятием</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>17</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4450</QuestID>
+              <QuestText>ПОДЧИНЯЮЩИЙСЯ-ДОМИНИРУЮЩИЙ</QuestText>
+              <AnsID>27244</AnsID>
+              <AnsText>некоторое совпадение с правым понятием</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>18</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4454</QuestID>
+              <QuestText>НАСТОЯЩИЙ-НЕНАСТОЯЩИЙ</QuestText>
+              <AnsID>27272</AnsID>
+              <AnsText>некоторое совпадение с правым понятием</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>19</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4458</QuestID>
+              <QuestText>ОТКРОВЕННЫЙ-НЕОТКРОВЕННЫЙ</QuestText>
+              <AnsID>27298</AnsID>
+              <AnsText>некоторое совпадение с левым понятием</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>20</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4462</QuestID>
+              <QuestText>САМОСТОЯТЕЛЬНЫЙ-НЕСАМОСТОЯТЕЛЬНЫЙ</QuestText>
+              <AnsID>27325</AnsID>
+              <AnsText>почти полное совпадение с левым понятием</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>21</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4466</QuestID>
+              <QuestText>ИМПУЛЬСИВНЫЙ-УРАВНОВЕШЕННЫЙ</QuestText>
+              <AnsID>27356</AnsID>
+              <AnsText>некоторое совпадение с правым понятием</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>22</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4470</QuestID>
+              <QuestText>НЕСИМПАТИЧНЫЙ-СИМПАТИЧНЫЙ</QuestText>
+              <AnsID>27383</AnsID>
+              <AnsText>одинаково удалено от обоих понятий</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>23</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4474</QuestID>
+              <QuestText>ПОДАТЛИВЫЙ-ПРОБИВНОЙ</QuestText>
+              <AnsID>27410</AnsID>
+              <AnsText>некоторое совпадение с левым понятием</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>24</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4431</QuestID>
+              <QuestText>Определите, как понятие ЛЮБОВЬ связно с двумя другими, к какому оно ближе: СПОКОЙНЫЙ-ОЖИВЛЕННЫЙ</QuestText>
+              <AnsID>27108</AnsID>
+              <AnsText>Почти полное совпадение с левым понятием</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>25</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4435</QuestID>
+              <QuestText>ПРЕДУПРЕДИТЕЛЬНЫЙ-БЕСЦЕРЕМОННЫЙ</QuestText>
+              <AnsID>27137</AnsID>
+              <AnsText>некоторое совпадение с левым понятием</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>26</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4439</QuestID>
+              <QuestText>УВЕРЕНННЫЙ-НЕУВЕРЕННЫЙ</QuestText>
+              <AnsID>27167</AnsID>
+              <AnsText>некоторое совпадение с правым понятием</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>27</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4443</QuestID>
+              <QuestText>НЕДЕЛОВОЙ-ДЕЛОВИТЫЙ</QuestText>
+              <AnsID>27196</AnsID>
+              <AnsText>почти полное совпадение с правым понятием</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>28</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4447</QuestID>
+              <QuestText>ЗЛОВРЕДНЫЙ-ДОБРОДУШНЫЙ</QuestText>
+              <AnsID>27223</AnsID>
+              <AnsText>некоторое совпадение с правым понятием</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>29</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4451</QuestID>
+              <QuestText>ПОДЧИНЯЮЩИЙСЯ-ДОМИНИРУЮЩИЙ</QuestText>
+              <AnsID>27250</AnsID>
+              <AnsText>одинаково удалено от обоих понятий</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>30</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4455</QuestID>
+              <QuestText>НАСТОЯЩИЙ-НЕНАСТОЯЩИЙ</QuestText>
+              <AnsID>27276</AnsID>
+              <AnsText>почти полное совпадение с левым понятием</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>31</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4459</QuestID>
+              <QuestText>ОТКРОВЕННЫЙ-НЕОТКРОВЕННЫЙ</QuestText>
+              <AnsID>27305</AnsID>
+              <AnsText>некоторое совпадение с левым понятием</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>32</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4463</QuestID>
+              <QuestText>САМОСТОЯТЕЛЬНЫЙ-НЕСАМОСТОЯТЕЛЬНЫЙ</QuestText>
+              <AnsID>27334</AnsID>
+              <AnsText>одинаково удалено от обоих понятий</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>33</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4467</QuestID>
+              <QuestText>ИМПУЛЬСИВНЫЙ-УРАВНОВЕШЕННЫЙ</QuestText>
+              <AnsID>27361</AnsID>
+              <AnsText>некоторое совпадение с левым понятием</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>34</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4471</QuestID>
+              <QuestText>НЕСИМПАТИЧНЫЙ-СИМПАТИЧНЫЙ</QuestText>
+              <AnsID>27387</AnsID>
+              <AnsText>весьма полное смовпадение с правым понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>35</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4475</QuestID>
+              <QuestText>ПОДАТЛИВЫЙ-ПРОБИВНОЙ</QuestText>
+              <AnsID>27416</AnsID>
+              <AnsText>почти полное совпадение с левым понятием</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>36</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4432</QuestID>
+              <QuestText>Определите, как связано понятие КОНФЛИКТ с двумя другими, к какому оно ближе: СПОКОЙНЫЙ-ОЖИВЛЕННЫЙ</QuestText>
+              <AnsID>27116</AnsID>
+              <AnsText>Некоторое совпадение с левым понятиям</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>37</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4436</QuestID>
+              <QuestText>ПРЕДУПРЕДИТЕЛЬНЫЙ-БЕСЦЕРЕМОННЫЙ</QuestText>
+              <AnsID>27145</AnsID>
+              <AnsText>одинаково удалено от обоих понятий</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>38</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4440</QuestID>
+              <QuestText>УВЕРЕНННЫЙ-НЕУВЕРЕННЫЙ</QuestText>
+              <AnsID>27172</AnsID>
+              <AnsText>некоторое совпадение с левым понятием</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>39</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4444</QuestID>
+              <QuestText>НЕДЕЛОВОЙ-ДЕЛОВИТЫЙ</QuestText>
+              <AnsID>27200</AnsID>
+              <AnsText>некоторое совпадение с левым понятием</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>40</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4448</QuestID>
+              <QuestText>ЗЛОВРЕДНЫЙ-ДОБРОДУШНЫЙ</QuestText>
+              <AnsID>27230</AnsID>
+              <AnsText>некоторое совпадение с правым понятием</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>41</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4452</QuestID>
+              <QuestText>ПОДЧИНЯЮЩИЙСЯ-ДОМИНИРУЮЩИЙ</QuestText>
+              <AnsID>27259</AnsID>
+              <AnsText>почти полное совпадение с правым понятием</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>42</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4456</QuestID>
+              <QuestText>НАСТОЯЩИЙ-НЕНАСТОЯЩИЙ</QuestText>
+              <AnsID>27286</AnsID>
+              <AnsText>некоторое совпадение с правым понятием</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>43</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4460</QuestID>
+              <QuestText>ОТКРОВЕННЫЙ-НЕОТКРОВЕННЫЙ</QuestText>
+              <AnsID>27312</AnsID>
+              <AnsText>некоторое совпадение с левым понятием</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>44</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4464</QuestID>
+              <QuestText>САМОСТОЯТЕЛЬНЫЙ-НЕСАМОСТОЯТЕЛЬНЫЙ</QuestText>
+              <AnsID>27339</AnsID>
+              <AnsText>почти полное совпадение с левым понятием</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>45</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4468</QuestID>
+              <QuestText>ИМПУЛЬСИВНЫЙ-УРАВНОВЕШЕННЫЙ</QuestText>
+              <AnsID>27368</AnsID>
+              <AnsText>некоторое совпадение с левым понятием</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>46</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4472</QuestID>
+              <QuestText>НЕСИМПАТИЧНЫЙ-СИМПАТИЧНЫЙ</QuestText>
+              <AnsID>27398</AnsID>
+              <AnsText>некоторое совпадение с левым понятиеем</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>47</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>4476</QuestID>
+              <QuestText>ПОДАТЛИВЫЙ-ПРОБИВНОЙ</QuestText>
+              <AnsID>27423</AnsID>
+              <AnsText>почти полное совпадение с левым понятием</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>48</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+      </Tests>
+    </Examinee>
+  </Examinees>
+</Archiv>

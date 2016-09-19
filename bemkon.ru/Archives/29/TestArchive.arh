@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Archiv>
+  <name>D:\Professor\professor.win\ProfessorTestingWeb\Archives\18\TestArchive.arh</name>
+  <Examinees>
+    <Examinee>
+      <ID>1</ID>
+      <Name>Кирилл</Name>
+      <Description>
+      </Description>
+      <Tests>
+        <Test>
+          <ID>87</ID>
+          <Name>SD1</Name>
+          <FullTime />
+          <Date>21.05.2014 1:18:04</Date>
+          <IsFinished>false</IsFinished>
+          <Results />
+        </Test>
+        <Test>
+          <ID>50</ID>
+          <Name>BIA</Name>
+          <FullTime />
+          <Date>21.05.2014 1:18:44</Date>
+          <IsFinished>false</IsFinished>
+          <Results />
+        </Test>
+      </Tests>
+    </Examinee>
+  </Examinees>
+</Archiv>

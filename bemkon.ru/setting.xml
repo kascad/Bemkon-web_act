@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <OpenLastArchive>True</OpenLastArchive>
+  <LastArchive></LastArchive>
+  <ArchivesFolder></ArchivesFolder>
+  <constr>Data Source=193.232.167.125;Initial Catalog=u412978_v2;Persist Security Info=True;User ID=testuser;Password=Qq123456</constr>
+  <Mode>Remote</Mode>
+  <LastLocalDbUpdatedData></LastLocalDbUpdatedData>
+</settings>

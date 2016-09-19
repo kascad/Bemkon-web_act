@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="professor_testing" Class="TestDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DNAPC\SQLEXPRESS;Initial Catalog=professor_testing;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="professor_testingConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ScaleWeights" Member="ScaleWeights">
+    <Type Name="ScaleWeight">
+      <Column Name="ScaleWeightID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AnsID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ScaleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Weight" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="Scale_ScaleWeight" Member="Scale" ThisKey="ScaleID" OtherKey="ScaleID" Type="Scale" IsForeignKey="true" DeleteRule="CASCADE" />
+      <Association Name="Answers_ScaleWeight" Member="Answers" ThisKey="AnsID" OtherKey="AnsID" Type="Answers" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tests" Member="Tests">
+    <Type Name="Test">
+      <Column Name="TestID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ShortName" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="FullName" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="CategoryID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Author" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="TestingCount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Preamble" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Test_Scale" Member="Scales" ThisKey="TestID" OtherKey="TestID" Type="Scale" />
+      <Association Name="Test_Questions" Member="Questions" ThisKey="TestID" OtherKey="TestID" Type="Questions" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Scales" Member="Scales">
+    <Type Name="Scale">
+      <Column Name="ScaleID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ScaleName" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="ScaleShortName" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="TestID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BallAVR" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="BallMin" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="BallMax" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="BallSTD" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="Scale_ScaleWeight" Member="ScaleWeights" ThisKey="ScaleID" OtherKey="ScaleID" Type="ScaleWeight" />
+      <Association Name="Test_Scale" Member="Test" ThisKey="TestID" OtherKey="TestID" Type="Test" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Answers" Member="Answers">
+    <Type Name="Answers">
+      <Column Name="AnsID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="QuestID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AnsNum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AnsText" Type="System.String" DbType="NVarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="NextQuestNum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Answers_ScaleWeight" Member="ScaleWeight" ThisKey="AnsID" OtherKey="AnsID" Type="ScaleWeight" />
+      <Association Name="Questions_Answers" Member="Questions" ThisKey="QuestID" OtherKey="QuestID" Type="Questions" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Questions" Member="Questions">
+    <Type Name="Questions">
+      <Column Name="QuestID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TestID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="QuestText" Type="System.String" DbType="NVarChar(240) NOT NULL" CanBeNull="false" />
+      <Column Name="QuestType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="QuestNum" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QuestImg" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Questions_Answers" Member="Answers" ThisKey="QuestID" OtherKey="QuestID" Type="Answers" />
+      <Association Name="Test_Questions" Member="Test" ThisKey="TestID" OtherKey="TestID" Type="Test" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+</Database>

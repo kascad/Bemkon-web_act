@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Archiv>
+  <name>Archives\For_CalculateScaleBalls_Test.arh</name>
+  <Examinees>
+    <Examinee>
+      <ID>1</ID>
+      <Name>Test</Name>
+      <Description>
+      </Description>
+      <Tests>
+        <Test>
+          <ID>59</ID>
+          <Name>GI1</Name>
+          <FullTime>00:00:20</FullTime>
+          <Date>24.08.2010 12:41:35</Date>
+          <IsFinished>true</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>43</QuestID>
+              <QuestText>Я достойна</QuestText>
+              <AnsID>40</AnsID>
+              <AnsText>идеального мужа, т.е. исключительно достойного</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>89</QuestID>
+              <QuestText>Считаю, что я соответствую</QuestText>
+              <AnsID>597</AnsID>
+              <AnsText>хорошему типу жены</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>139</QuestID>
+              <QuestText>Требования к мужу: Добропорядочность для моего мужа</QuestText>
+              <AnsID>1050</AnsID>
+              <AnsText>желательна</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>3</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>186</QuestID>
+              <QuestText>Требования к мужу: Отношение к спиртному</QuestText>
+              <AnsID>1502</AnsID>
+              <AnsText>пьет по желанию</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>4</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>200</QuestID>
+              <QuestText>Желательные качества будущего супруга: Деловая хватка</QuestText>
+              <AnsID>1922</AnsID>
+              <AnsText>желательна</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>5</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>250</QuestID>
+              <QuestText>Желаемые качества для будущего супруга: Хозяйственность</QuestText>
+              <AnsID>2453</AnsID>
+              <AnsText>желательна</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>6</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>295</QuestID>
+              <QuestText>Выберите самое важное требование для Вашего будущего избранника:</QuestText>
+              <AnsID>2967</AnsID>
+              <AnsText>умение быть хорошим отцом</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>7</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>373</QuestID>
+              <QuestText>Что Вы сами готовы сделать для Вашего будущего избранника?</QuestText>
+              <AnsID>3222</AnsID>
+              <AnsText>никогда не изменять</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:05</Time>
+              <QuestNumber>8</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+      </Tests>
+    </Examinee>
+  </Examinees>
+</Archiv>

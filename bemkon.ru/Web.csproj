@@ -1,0 +1,945 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FFD14BFE-B320-43F8-987D-E73D3B8EF6F7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProfessorTesting</RootNamespace>
+    <AssemblyName>ProfessorTesting</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <BaseIntermediateOutputPath>..\obj\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)$(Configuration)\</IntermediateOutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <FilesToIncludeForPublish>AllFilesInProjectFolder</FilesToIncludeForPublish>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <BaseIntermediateOutputPath>..\obj\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)$(Configuration)\</IntermediateOutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PublishDatabases>false</PublishDatabases>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DotNet.Highcharts, Version=4.0.0.0, Culture=neutral, PublicKeyToken=88854f873df851bf, processorArchitecture=MSIL">
+      <HintPath>packages\DotNet.Highcharts.4.0\lib\DotNet.Highcharts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.4.9.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.4.9\lib\Net45\HtmlAgilityPack.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="NLog, Version=2.1.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>packages\NLog.2.1.0\lib\net45\NLog.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SvbxExtensions">
+      <HintPath>..\Libs\SvbxExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\BanUser.aspx" />
+    <Content Include="Admin\Default.aspx" />
+    <Content Include="Admin\EditCompany.aspx" />
+    <Content Include="Admin\EditUser.aspx" />
+    <Content Include="App_Data\Advertisement.xml" />
+    <Content Include="bin\Microsoft.Office.Interop.Excel.dll" />
+    <Content Include="bin\Microsoft.Vbe.Interop.dll" />
+    <Content Include="bin\office.dll" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Controls\EditCompanyPanel.ascx" />
+    <Content Include="Controls\MenuOperator.ascx" />
+    <Content Include="Controls\OperatorUsers.ascx" />
+    <Content Include="Fragments\Article17.aspx" />
+    <Content Include="Fragments\Article16.aspx" />
+    <Content Include="Fragments\Article12.aspx" />
+    <Content Include="Fragments\Article14.aspx" />
+    <Content Include="Fragments\Article15.aspx" />
+    <Content Include="Fragments\Article3.aspx" />
+    <Content Include="Fragments\Book11.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\cancel.png" />
+    <Content Include="Images\cart.png" />
+    <Content Include="Images\advert.gif" />
+    <Content Include="Images\button_ok.png" />
+    <Content Include="Images\db\Books\Article17.png" />
+    <Content Include="Images\db\Books\book1.png" />
+    <Content Include="Images\db\Books\book16.jpg" />
+    <Content Include="Images\db\Books\book2.png" />
+    <Content Include="Images\bottom.jpg" />
+    <Content Include="Images\bottom2.jpg" />
+    <Content Include="Images\bottom3.jpg" />
+    <Content Include="Images\db\Books\breath.jpg" />
+    <Content Include="Images\db\Books\Cosm&amp;People.jpg" />
+    <Content Include="Images\db\Books\econcris.jpg" />
+    <Content Include="Images\db\Books\ecriscos.jpg" />
+    <Content Include="Images\db\Books\ether.jpg" />
+    <Content Include="Images\db\Books\fond.jpg" />
+    <Content Include="Images\db\Books\incr.jpg" />
+    <Content Include="Images\db\Books\intell.jpg" />
+    <Content Include="Images\db\Books\lightforce.jpg" />
+    <Content Include="Images\db\Books\PeoplesChange.jpg" />
+    <Content Include="Images\db\Books\psiecoglob.jpg" />
+    <Content Include="Images\db\Books\psiectoday.png" />
+    <Content Include="Images\db\Books\shiza.jpg" />
+    <Content Include="Images\db\Personalities\photo1.jpg" />
+    <Content Include="Images\db\Personalities\photo2.png" />
+    <Content Include="Images\db\Books\eccrisis.jpg" />
+    <Content Include="Images\db\Personalities\photo3.png" />
+    <Content Include="Images\delete.png" />
+    <Content Include="Images\edit.png" />
+    <Content Include="Images\ExcelImage.gif" />
+    <Content Include="Images\Excel_16x16.png" />
+    <Content Include="Images\Fragments\a12p1.png" />
+    <Content Include="Images\Fragments\a14p1.png" />
+    <Content Include="Images\Fragments\a14p10.png" />
+    <Content Include="Images\Fragments\a14p11.png" />
+    <Content Include="Images\Fragments\a14p12.png" />
+    <Content Include="Images\Fragments\a14p13.jpg" />
+    <Content Include="Images\Fragments\a14p14.jpg" />
+    <Content Include="Images\Fragments\a14p15.jpg" />
+    <Content Include="Images\Fragments\a14p2.png" />
+    <Content Include="Images\Fragments\a14p3.png" />
+    <Content Include="Images\Fragments\a14p4.png" />
+    <Content Include="Images\Fragments\a14p5.png" />
+    <Content Include="Images\Fragments\a14p6.png" />
+    <Content Include="Images\Fragments\a14p7.png" />
+    <Content Include="Images\Fragments\a14p8.png" />
+    <Content Include="Images\Fragments\a14p9.png" />
+    <Content Include="Images\Fragments\a15p1.jpg" />
+    <Content Include="Images\Fragments\a15p2.png" />
+    <Content Include="Images\Fragments\a15p3.png" />
+    <Content Include="Images\Fragments\a15p4.png" />
+    <Content Include="Images\Fragments\a15p5.png" />
+    <Content Include="Images\Fragments\b11p1.jpg" />
+    <Content Include="Images\Fragments\b11p2.png" />
+    <Content Include="Images\Fragments\b11p3.png" />
+    <Content Include="Images\Fragments\b11p4.png" />
+    <Content Include="Images\Fragments\b11p5.png" />
+    <Content Include="Images\Fragments\b11p6.jpg" />
+    <Content Include="Images\Fragments\b11p7.jpg" />
+    <Content Include="Images\Fragments\b11p8.jpg" />
+    <Content Include="Images\Fragments\cp1.png" />
+    <Content Include="Images\Fragments\cp2.png" />
+    <Content Include="Images\Fragments\cp3.png" />
+    <Content Include="Images\Fragments\cp4.png" />
+    <Content Include="Images\Fragments\cp5.png" />
+    <Content Include="Images\Fragments\cp6.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Book.aspx" />
+    <Content Include="Archives\29\TestArchive.arh" />
+    <Content Include="Images\noimage.png" />
+    <Content Include="Images\save.png" />
+    <Content Include="MailQuestion.aspx" />
+    <Content Include="Operator\BaseOperatorPage.aspx" />
+    <Content Include="Operator\Default.aspx" />
+    <Content Include="OrderTemplate.txt" />
+    <Content Include="OurTeam.aspx" />
+    <Content Include="Default.master" />
+    <Content Include="Fragments\Book11.pdf" />
+    <Content Include="Fragments\Ec_crisis.pdf" />
+    <Content Include="Fragments\Ec_crisisCosmos.pdf" />
+    <Content Include="Fragments\Ether.pdf" />
+    <Content Include="Fragments\Psyhoec.pdf" />
+    <None Include="Scripts\jquery-2.1.1.intellisense.js" />
+    <Content Include="Images\db\Books\Psyhoeconomics.jpg" />
+    <Content Include="Images\QuestImgs\empty.jpg" />
+    <Content Include="Images\top.jpg" />
+    <Content Include="Images\top2.jpg" />
+    <Content Include="Images\Word_16x16.png" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\adapters\standalone-framework.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\adapters\standalone-framework.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\highcharts-3d.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\highcharts-3d.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\highcharts-all.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\highcharts-more.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\highcharts-more.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\highcharts.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\highcharts.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\canvas-tools.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\canvas-tools.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\data.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\data.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\drilldown.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\drilldown.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\exporting.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\exporting.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\funnel.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\funnel.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\heatmap.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\heatmap.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\no-data-to-display.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\no-data-to-display.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\solid-gauge.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\modules\solid-gauge.src.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\themes\dark-blue.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\themes\dark-green.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\themes\dark-unica.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\themes\gray.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\themes\grid-light.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\themes\grid.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\themes\sand-signika.js" />
+    <Content Include="Scripts\Highcharts-4.0.1\js\themes\skies.js" />
+    <Content Include="Scripts\jquery-2.1.1.js" />
+    <Content Include="Scripts\jquery-2.1.1.min.js" />
+    <Content Include="Scripts\jquery.tablesorter.js" />
+    <Content Include="Scripts\jquery.tablesorter.min.js" />
+    <Content Include="Scripts\themes\asc.gif" />
+    <Content Include="Scripts\themes\bg.gif" />
+    <Content Include="Scripts\themes\desc.gif" />
+    <Content Include="Scripts\themes\style.css" />
+    <Content Include="ShoppingCart.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Scripts\jquery-2.1.1.min.map" />
+    <Content Include="Web.sitemap" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activation.aspx.cs">
+      <DependentUpon>Activation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Activation.aspx.designer.cs">
+      <DependentUpon>Activation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BanUser.aspx.cs">
+      <DependentUpon>BanUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BanUser.aspx.designer.cs">
+      <DependentUpon>BanUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BaseAdminPage.aspx.cs">
+      <DependentUpon>BaseAdminPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BaseAdminPage.aspx.designer.cs">
+      <DependentUpon>BaseAdminPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EditCompany.aspx.cs">
+      <DependentUpon>EditCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EditCompany.aspx.designer.cs">
+      <DependentUpon>EditCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EditUser.aspx.cs">
+      <DependentUpon>EditUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Book.aspx.cs">
+      <DependentUpon>Book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Book.aspx.designer.cs">
+      <DependentUpon>Book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EditCompanyPanel.ascx.cs">
+      <DependentUpon>EditCompanyPanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\EditCompanyPanel.ascx.designer.cs">
+      <DependentUpon>EditCompanyPanel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MenuOperator.ascx.cs">
+      <DependentUpon>MenuOperator.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MenuOperator.ascx.designer.cs">
+      <DependentUpon>MenuOperator.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\OperatorUsers.ascx.cs">
+      <DependentUpon>OperatorUsers.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\OperatorUsers.ascx.designer.cs">
+      <DependentUpon>OperatorUsers.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.master.cs">
+      <DependentUpon>Default.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.master.designer.cs">
+      <DependentUpon>Default.master</DependentUpon>
+    </Compile>
+    <Compile Include="Fragments\Article17.aspx.cs">
+      <DependentUpon>Article17.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fragments\Article17.aspx.designer.cs">
+      <DependentUpon>Article17.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fragments\Article16.aspx.cs">
+      <DependentUpon>Article16.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fragments\Article16.aspx.designer.cs">
+      <DependentUpon>Article16.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fragments\Article12.aspx.cs">
+      <DependentUpon>Article12.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fragments\Article12.aspx.designer.cs">
+      <DependentUpon>Article12.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fragments\Article14.aspx.cs">
+      <DependentUpon>Article14.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fragments\Article14.aspx.designer.cs">
+      <DependentUpon>Article14.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fragments\Article15.aspx.cs">
+      <DependentUpon>Article15.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fragments\Article15.aspx.designer.cs">
+      <DependentUpon>Article15.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fragments\Article3.aspx.cs">
+      <DependentUpon>Article3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fragments\Article3.aspx.designer.cs">
+      <DependentUpon>Article3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fragments\Book11.aspx.cs">
+      <DependentUpon>Book11.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fragments\Book11.aspx.designer.cs">
+      <DependentUpon>Book11.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="MailQuestion.aspx.cs">
+      <DependentUpon>MailQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MailQuestion.aspx.designer.cs">
+      <DependentUpon>MailQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Old_App_Code\Common\CompanyInfo.cs" />
+    <Compile Include="Old_App_Code\Connection\CompanyDB.cs" />
+    <Compile Include="Operator\BaseOperatorPage.aspx.cs">
+      <DependentUpon>BaseOperatorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Operator\BaseOperatorPage.aspx.designer.cs">
+      <DependentUpon>BaseOperatorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Operator\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Operator\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OurTeam.aspx.cs">
+      <DependentUpon>OurTeam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OurTeam.aspx.designer.cs">
+      <DependentUpon>OurTeam.aspx</DependentUpon>
+    </Compile>
+    <Content Include="Activation.aspx" />
+    <Compile Include="Admin\EditUser.aspx.designer.cs">
+      <DependentUpon>EditUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasePage.aspx.cs">
+      <DependentUpon>BasePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasePage.aspx.designer.cs">
+      <DependentUpon>BasePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ActivationPanel.ascx.designer.cs">
+      <DependentUpon>ActivationPanel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ArchiveMenu.ascx.cs">
+      <DependentUpon>ArchiveMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ArchiveMenu.ascx.designer.cs">
+      <DependentUpon>ArchiveMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AdminUsers.ascx.designer.cs">
+      <DependentUpon>AdminUsers.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ArchivePanel.ascx.cs">
+      <DependentUpon>ArchivePanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ArchivePanel.ascx.designer.cs">
+      <DependentUpon>ArchivePanel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BatteryTestsPanel.ascx.cs">
+      <DependentUpon>BatteryTestsPanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\BatteryTestsPanel.ascx.designer.cs">
+      <DependentUpon>BatteryTestsPanel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ChangePasswordPanel.ascx.designer.cs">
+      <DependentUpon>ChangePasswordPanel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DeleteExamineePanel.ascx.cs">
+      <DependentUpon>DeleteExamineePanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\DeleteExamineePanel.ascx.designer.cs">
+      <DependentUpon>DeleteExamineePanel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EditExamineePanel.ascx.cs">
+      <DependentUpon>EditExamineePanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\EditExamineePanel.ascx.designer.cs">
+      <DependentUpon>EditExamineePanel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EditUserPanel.ascx.designer.cs">
+      <DependentUpon>EditUserPanel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ExamineeMenu.ascx.cs">
+      <DependentUpon>ExamineeMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ExamineeMenu.ascx.designer.cs">
+      <DependentUpon>ExamineeMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MenuAdmin.ascx.designer.cs">
+      <DependentUpon>MenuAdmin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MenuLogin.ascx.designer.cs">
+      <DependentUpon>MenuLogin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MenuUser.ascx.cs">
+      <DependentUpon>MenuUser.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MenuUser.ascx.designer.cs">
+      <DependentUpon>MenuUser.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Customize.aspx.designer.cs">
+      <DependentUpon>Customize.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SelectTestExamineePanel.ascx.cs">
+      <DependentUpon>SelectTestExamineePanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SelectTestExamineePanel.ascx.designer.cs">
+      <DependentUpon>SelectTestExamineePanel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TestingExamineePanel.ascx.cs">
+      <DependentUpon>TestingExamineePanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\TestingExamineePanel.ascx.designer.cs">
+      <DependentUpon>TestingExamineePanel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TestsPanel.ascx.cs">
+      <DependentUpon>TestsPanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\TestsPanel.ascx.designer.cs">
+      <DependentUpon>TestsPanel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Top10TestsPanel.ascx.cs">
+      <DependentUpon>Top10TestsPanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Top10TestsPanel.ascx.designer.cs">
+      <DependentUpon>Top10TestsPanel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UserExaminees.ascx.cs">
+      <DependentUpon>UserExaminees.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UserExaminees.ascx.designer.cs">
+      <DependentUpon>UserExaminees.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ViewTestExamineePanel.ascx.cs">
+      <DependentUpon>ViewTestExamineePanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ViewTestExamineePanel.ascx.designer.cs">
+      <DependentUpon>ViewTestExamineePanel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.designer.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogOut.aspx.designer.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.master.designer.cs">
+      <DependentUpon>Main.master</DependentUpon>
+    </Compile>
+    <Compile Include="Old_App_Code\Common\Core.cs" />
+    <Compile Include="Old_App_Code\Common\DataSources\ArchiveListSource.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Old_App_Code\Common\Enum\ActionType.cs" />
+    <Compile Include="Old_App_Code\Common\Enum\ArchiveModType.cs" />
+    <Compile Include="Old_App_Code\Common\Enum\EditMode.cs" />
+    <Compile Include="Old_App_Code\Common\Enum\FromType.cs" />
+    <Compile Include="Old_App_Code\Common\Enum\UserPrivGroup.cs" />
+    <Compile Include="Old_App_Code\Common\ErrorHandler.cs" />
+    <Compile Include="Old_App_Code\Common\Events\SelectedExamineeEventArgs.cs" />
+    <Compile Include="Old_App_Code\Common\UserInfo.cs" />
+    <Compile Include="Old_App_Code\Connection\ConnectionDBPool.cs" />
+    <Compile Include="Old_App_Code\Connection\NameDB.cs" />
+    <Compile Include="Old_App_Code\Connection\SqlParam.cs" />
+    <Compile Include="Old_App_Code\Helper.cs" />
+    <Compile Include="Old_App_Code\Manager\UserManager.cs" />
+    <Content Include="Controls\ActivationPanel.ascx" />
+    <Content Include="Controls\AdminUsers.ascx" />
+    <Content Include="Controls\ChangePasswordPanel.ascx" />
+    <Content Include="Controls\EditUserPanel.ascx" />
+    <Content Include="Controls\MenuAdmin.ascx" />
+    <Content Include="Controls\MenuLogin.ascx" />
+    <Content Include="Css\General.css" />
+    <Content Include="Admin\Customize.aspx" />
+    <Content Include="Images\menu.jpg" />
+    <Content Include="Images\spacer.gif" />
+    <Content Include="Login.aspx" />
+    <Content Include="LogOut.aspx" />
+    <Content Include="Registration.aspx" />
+    <Content Include="User\Default.aspx" />
+    <Compile Include="Controls\ActivationPanel.ascx.cs">
+      <DependentUpon>ActivationPanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AdminUsers.ascx.cs">
+      <DependentUpon>AdminUsers.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ChangePasswordPanel.ascx.cs">
+      <DependentUpon>ChangePasswordPanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\EditUserPanel.ascx.cs">
+      <DependentUpon>EditUserPanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MenuAdmin.ascx.cs">
+      <DependentUpon>MenuAdmin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MenuLogin.ascx.cs">
+      <DependentUpon>MenuLogin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Customize.aspx.cs">
+      <DependentUpon>Customize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogOut.aspx.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.master.cs">
+      <DependentUpon>Main.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Old_App_Code\TestDataClasses.cs">
+      <DependentUpon>TestDataClasses.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Old_App_Code\TestDataClasses.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TestDataClasses.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Old_App_Code\WebExcel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestImageHandler.ashx.cs">
+      <DependentUpon>QuestImageHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration.aspx.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration.aspx.designer.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BaseUserPage.aspx.cs">
+      <DependentUpon>BaseUserPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\BaseUserPage.aspx.designer.cs">
+      <DependentUpon>BaseUserPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.designer.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Archives.aspx.cs">
+      <DependentUpon>Archives.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Archives.aspx.designer.cs">
+      <DependentUpon>Archives.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\BatteryTests.aspx.cs">
+      <DependentUpon>BatteryTests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\BatteryTests.aspx.designer.cs">
+      <DependentUpon>BatteryTests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Customize.aspx.cs">
+      <DependentUpon>Customize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Customize.aspx.designer.cs">
+      <DependentUpon>Customize.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\DeleteExaminee.aspx.cs">
+      <DependentUpon>DeleteExaminee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\DeleteExaminee.aspx.designer.cs">
+      <DependentUpon>DeleteExaminee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\EditExaminee.aspx.cs">
+      <DependentUpon>EditExaminee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\EditExaminee.aspx.designer.cs">
+      <DependentUpon>EditExaminee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\InterpretExaminee.aspx.cs">
+      <DependentUpon>InterpretExaminee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\InterpretExaminee.aspx.designer.cs">
+      <DependentUpon>InterpretExaminee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Interprets.aspx.cs">
+      <DependentUpon>Interprets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Interprets.aspx.designer.cs">
+      <DependentUpon>Interprets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\NewExaminee.aspx.cs">
+      <DependentUpon>NewExaminee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\NewExaminee.aspx.designer.cs">
+      <DependentUpon>NewExaminee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\SelectTestExaminee.aspx.cs">
+      <DependentUpon>SelectTestExaminee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\SelectTestExaminee.aspx.designer.cs">
+      <DependentUpon>SelectTestExaminee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\TestExaminee.aspx.cs">
+      <DependentUpon>TestExaminee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\TestExaminee.aspx.designer.cs">
+      <DependentUpon>TestExaminee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Tests.aspx.cs">
+      <DependentUpon>Tests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Tests.aspx.designer.cs">
+      <DependentUpon>Tests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\TopTests.aspx.cs">
+      <DependentUpon>TopTests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\TopTests.aspx.designer.cs">
+      <DependentUpon>TopTests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\ViewTest.aspx.cs">
+      <DependentUpon>ViewTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\ViewTest.aspx.designer.cs">
+      <DependentUpon>ViewTest.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\BaseAdminPage.aspx" />
+    <Content Include="BasePage.aspx" />
+    <Content Include="Controls\ArchiveMenu.ascx" />
+    <Content Include="Controls\ArchivePanel.ascx" />
+    <Content Include="Controls\BatteryTestsPanel.ascx" />
+    <Content Include="Controls\DeleteExamineePanel.ascx" />
+    <Content Include="Controls\EditExamineePanel.ascx" />
+    <Content Include="Controls\ExamineeMenu.ascx" />
+    <Content Include="Controls\MenuUser.ascx" />
+    <Content Include="Controls\SelectTestExamineePanel.ascx" />
+    <Content Include="Controls\TestingExamineePanel.ascx" />
+    <Content Include="Controls\TestsPanel.ascx" />
+    <Content Include="Controls\Top10TestsPanel.ascx" />
+    <Content Include="Controls\UserExaminees.ascx" />
+    <Content Include="Controls\ViewTestExamineePanel.ascx" />
+    <Content Include="Default.aspx" />
+    <Content Include="ErrorPage.aspx" />
+    <Content Include="Images\ajax-loader.gif" />
+    <Content Include="Images\Archive_16x16.png" />
+    <Content Include="Images\book_48.png" />
+    <Content Include="Images\Check_16x16.png" />
+    <Content Include="Images\Copy v2_32x32.png" />
+    <Content Include="Images\Copy v2_48x48.png" />
+    <Content Include="Images\download16_16.png" />
+    <Content Include="Images\fon2.png" />
+    <Content Include="Images\fon3.png" />
+    <Content Include="Images\fon4.png" />
+    <Content Include="Images\images\c0.jpg" />
+    <Content Include="Images\images\C1.JPG" />
+    <Content Include="Images\images\C2.JPG" />
+    <Content Include="Images\images\C3.JPG" />
+    <Content Include="Images\images\C4.JPG" />
+    <Content Include="Images\images\C5.JPG" />
+    <Content Include="Images\images\C6.JPG" />
+    <Content Include="Images\images\C7.JPG" />
+    <Content Include="Images\Next_16x16.png" />
+    <Content Include="Images\Next_48x48.png" />
+    <Content Include="Images\Open_16x16.png" />
+    <Content Include="Images\Pause_48x48.png" />
+    <Content Include="Images\Play_48x48.png" />
+    <Content Include="Images\Previous_48x48.png" />
+    <Content Include="Images\Save_48x48.png" />
+    <Content Include="Images\separator.png" />
+    <Content Include="Images\Synchronize_16x16.png" />
+    <Content Include="Images\upload16_16.png" />
+    <Content Include="Images\User_16x16.png" />
+    <Content Include="Images\User_16x16_Delete1.png" />
+    <Content Include="Images\User_24x24.png" />
+    <Content Include="Images\User_48x48.png" />
+    <Content Include="Main.master" />
+    <Content Include="Professor.ico" />
+    <Content Include="setting.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Controls\BaseUserPage.aspx" />
+    <Content Include="User\Archives.aspx" />
+    <Content Include="User\BatteryTests.aspx" />
+    <Content Include="ChangePassword.aspx" />
+    <Content Include="User\Customize.aspx" />
+    <Content Include="User\DeleteExaminee.aspx" />
+    <Content Include="User\EditExaminee.aspx" />
+    <Content Include="User\InterpretExaminee.aspx" />
+    <Content Include="User\Interprets.aspx" />
+    <Content Include="User\NewExaminee.aspx" />
+    <Content Include="User\SelectTestExaminee.aspx" />
+    <Content Include="User\Test.aspx" />
+    <Content Include="User\TestExaminee.aspx" />
+    <Content Include="User\Tests.aspx" />
+    <Content Include="User\TopTests.aspx" />
+    <Content Include="User\ViewTest.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Old_App_Code\TestDataClasses.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>TestDataClasses.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\l1k.pubxml" />
+    <None Include="Properties\PublishProfiles\bemkon.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Old_App_Code\TestDataClasses.dbml.layout">
+      <DependentUpon>TestDataClasses.dbml</DependentUpon>
+    </None>
+    <Content Include="QuestImageHandler.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Archives\3\" />
+    <Folder Include="ScaleGraphs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\libs\Archive\Archive.csproj">
+      <Project>{142ea3d1-4259-43c3-8386-fe31e8a8ddbd}</Project>
+      <Name>Archive</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libs\Charts\Charts.csproj">
+      <Project>{38557ca3-5f7a-41ca-aedf-4b6e47df34e7}</Project>
+      <Name>Charts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libs\Interpret\Interpret.csproj">
+      <Project>{939e242c-f1a0-4609-b9b5-80698e1ace1f}</Project>
+      <Name>Interpret</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libs\Shared\Shared.csproj">
+      <Project>{b0692126-3439-41fc-b3e2-68bdfc59db6f}</Project>
+      <Name>Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libs\Testing\Testing.csproj">
+      <Project>{135e6e29-c93f-4a4f-b5b4-18c96fdc95ac}</Project>
+      <Name>Testing</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3155</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/ProfessorTesting</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

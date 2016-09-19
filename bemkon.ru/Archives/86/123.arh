@@ -1,0 +1,1939 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Archiv>
+  <name>C:\Users\admin\YandexDisk\bemkon.ru\Code\dev.bemkon.ru\Archives\86\123.arh</name>
+  <Examinees>
+    <Examinee>
+      <ID>1</ID>
+      <Name>tester</Name>
+      <Description>tester</Description>
+      <Tests>
+        <Test>
+          <ID>111</ID>
+          <Name>TSD</Name>
+          <FullTime>00:00:02</FullTime>
+          <Date>29.04.2016 21:07:45</Date>
+          <IsFinished>true</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>9032</QuestID>
+              <QuestText>Вопрос 1</QuestText>
+              <AnsID>50886</AnsID>
+              <AnsText>Ответ 1</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>9033</QuestID>
+              <QuestText>Вопрос 1</QuestText>
+              <AnsID>50889</AnsID>
+              <AnsText>Ответ 2</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+        <Test>
+          <ID>20</ID>
+          <Name>PE2</Name>
+          <FullTime>00:01:55</FullTime>
+          <Date>29.04.2016 21:14:27</Date>
+          <IsFinished>true</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>34</QuestID>
+              <QuestText>Почерк твердый?</QuestText>
+              <AnsID>37</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>51</QuestID>
+              <QuestText>Бледный?</QuestText>
+              <AnsID>584</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>114</QuestID>
+              <QuestText>Легкий, сухой - написано, слегка прикасаясь к бумаге?</QuestText>
+              <AnsID>1094</AnsID>
+              <AnsText>иногда</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:05</Time>
+              <QuestNumber>3</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>145</QuestID>
+              <QuestText>Быстрый и беглый?</QuestText>
+              <AnsID>1416</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>4</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>213</QuestID>
+              <QuestText>Медленный, как бы тянущийся?</QuestText>
+              <AnsID>1940</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>5</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>274</QuestID>
+              <QuestText>Размашистый?</QuestText>
+              <AnsID>2419</AnsID>
+              <AnsText>да, даже черезчур размашистый</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>6</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>304</QuestID>
+              <QuestText>Крупный?</QuestText>
+              <AnsID>2892</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>7</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>352</QuestID>
+              <QuestText>Мелкий?</QuestText>
+              <AnsID>3190</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>8</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>408</QuestID>
+              <QuestText>Сжатый?</QuestText>
+              <AnsID>3659</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>9</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>439</QuestID>
+              <QuestText>Каллиграфический?</QuestText>
+              <AnsID>4034</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>10</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>495</QuestID>
+              <QuestText>Разорванный?</QuestText>
+              <AnsID>4491</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>11</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>516</QuestID>
+              <QuestText>Дрожащий?</QuestText>
+              <AnsID>4799</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>12</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>592</QuestID>
+              <QuestText>Строгий?</QuestText>
+              <AnsID>5040</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>13</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>627</QuestID>
+              <QuestText>Правильный?</QuestText>
+              <AnsID>5529</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>14</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>670</QuestID>
+              <QuestText>С завитушками?</QuestText>
+              <AnsID>5762</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>15</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>712</QuestID>
+              <QuestText>Размазанный?</QuestText>
+              <AnsID>6113</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>16</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>729</QuestID>
+              <QuestText>Вертикальный?</QuestText>
+              <AnsID>6428</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>17</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>768</QuestID>
+              <QuestText>Буквы наклонены влево?</QuestText>
+              <AnsID>6792</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:06</Time>
+              <QuestNumber>18</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>806</QuestID>
+              <QuestText>Буквы наклонены вправо?</QuestText>
+              <AnsID>6993</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>19</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>847</QuestID>
+              <QuestText>Буквы в словах слитны?</QuestText>
+              <AnsID>7291</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>20</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>914</QuestID>
+              <QuestText>Написание букв в словах раздельно?</QuestText>
+              <AnsID>7649</AnsID>
+              <AnsText>иногда</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:09</Time>
+              <QuestNumber>21</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>922</QuestID>
+              <QuestText>Буквы отрывистые, неровные?</QuestText>
+              <AnsID>7968</AnsID>
+              <AnsText>иногда</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:05</Time>
+              <QuestNumber>22</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>976</QuestID>
+              <QuestText>Написание букв причудливое?</QuestText>
+              <AnsID>8224</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>23</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>988</QuestID>
+              <QuestText>Буквы аккуратные, "пятерочные"?</QuestText>
+              <AnsID>8476</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>24</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1022</QuestID>
+              <QuestText>Буквы жирные, размазанные?</QuestText>
+              <AnsID>8742</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>25</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1056</QuestID>
+              <QuestText>Буквы высокие?</QuestText>
+              <AnsID>8956</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>26</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1089</QuestID>
+              <QuestText>Буквы украшены, но уродливо?</QuestText>
+              <AnsID>9255</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>27</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1123</QuestID>
+              <QuestText>Буквы круглые?</QuestText>
+              <AnsID>9495</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>28</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1154</QuestID>
+              <QuestText>Буквы треугольные?</QuestText>
+              <AnsID>9788</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>29</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1186</QuestID>
+              <QuestText>Буквы угловатые?</QuestText>
+              <AnsID>10010</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>30</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1221</QuestID>
+              <QuestText>Буквы сплетенные?</QuestText>
+              <AnsID>10283</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>31</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1247</QuestID>
+              <QuestText>Буквы круглые (открытые, но не замкнутые)?</QuestText>
+              <AnsID>10583</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:10</Time>
+              <QuestNumber>32</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1276</QuestID>
+              <QuestText>Буквы замкнутые?</QuestText>
+              <AnsID>10772</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>33</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1306</QuestID>
+              <QuestText>Буквы как бы скачут?</QuestText>
+              <AnsID>11021</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>34</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1333</QuestID>
+              <QuestText>Буквы каллиграфические, с украшениями?</QuestText>
+              <AnsID>11247</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>35</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1362</QuestID>
+              <QuestText>Буквы разного размера?</QuestText>
+              <AnsID>11470</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>36</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1413</QuestID>
+              <QuestText>Строка летит вверх?</QuestText>
+              <AnsID>11776</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>37</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1445</QuestID>
+              <QuestText>Строка падает вниз?</QuestText>
+              <AnsID>12058</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>38</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1474</QuestID>
+              <QuestText>Строка параболой?</QuestText>
+              <AnsID>12267</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>39</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1501</QuestID>
+              <QuestText>Строка синусоидой?</QuestText>
+              <AnsID>12580</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>40</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1532</QuestID>
+              <QuestText>Строка ровная?</QuestText>
+              <AnsID>12843</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>41</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1549</QuestID>
+              <QuestText>Подпись неразборчивая?</QuestText>
+              <AnsID>13182</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>42</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1574</QuestID>
+              <QuestText>Подпись сложная?</QuestText>
+              <AnsID>13384</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:05</Time>
+              <QuestNumber>43</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1598</QuestID>
+              <QuestText>Подпись с завитушками?</QuestText>
+              <AnsID>13612</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>44</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1631</QuestID>
+              <QuestText>Подпись запутанная?</QuestText>
+              <AnsID>13866</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>45</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1648</QuestID>
+              <QuestText>Подпись простая?</QuestText>
+              <AnsID>14138</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>46</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1663</QuestID>
+              <QuestText>В подписи есть точка?</QuestText>
+              <AnsID>14323</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>47</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1686</QuestID>
+              <QuestText>В подписи есть росчерк?</QuestText>
+              <AnsID>14521</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>48</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1730</QuestID>
+              <QuestText>Подпись по диагонали вверх?</QuestText>
+              <AnsID>14774</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>49</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1748</QuestID>
+              <QuestText>Подпись занимает много места?</QuestText>
+              <AnsID>14963</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>50</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1756</QuestID>
+              <QuestText>В автографе содержится начальная буква имени?</QuestText>
+              <AnsID>15194</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>51</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1797</QuestID>
+              <QuestText>Почерк имеет наклон в одну сторону, а роспись в другую?</QuestText>
+              <AnsID>15388</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:04</Time>
+              <QuestNumber>52</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1805</QuestID>
+              <QuestText>Знаки препинания выделены сильно?</QuestText>
+              <AnsID>15622</AnsID>
+              <AnsText>иногда</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:04</Time>
+              <QuestNumber>53</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+        <Test>
+          <ID>118</ID>
+          <Name>SDB</Name>
+          <FullTime>00:00:12</FullTime>
+          <Date>29.04.2016 21:46:44</Date>
+          <IsFinished>true</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>14069</QuestID>
+              <QuestText>Определите, как понятие ПРЕУСПЕВАНИЕ связано с двумя другими:                  СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>86070</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:09</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14082</QuestID>
+              <QuestText>Определите, как понятие ПРЕУСПЕВАНИЕ связано с двумя другими: ПРЕДУПРЕДИТЕЛЬНЫЙ &lt;-------------------&gt; БЕСЦЕРЕМОННЫЙ?</QuestText>
+              <AnsID>86161</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:9</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14095</QuestID>
+              <QuestText>Определите, как понятие ПРЕУСПЕВАНИЕ связано с двумя другими: УВЕРЕННЫЙ В СЕБЕ &lt;---------------------&gt; НЕУВЕРЕННЫЙ В СЕБЕ (ная,ное) (ная,ное)</QuestText>
+              <AnsID>86252</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:9</Time>
+              <QuestNumber>3</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14108</QuestID>
+              <QuestText>Определите, как понятие ПРЕУСПЕВАНИЕ связано с двумя другими:  НЕДЕЛОВОЙ (вая,ое) &lt;--------------------&gt; ДЕЛОВИТЫЙ(тая,ое)</QuestText>
+              <AnsID>86343</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:9</Time>
+              <QuestNumber>4</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14121</QuestID>
+              <QuestText>Определите, как понятие ПРЕУСПЕВАНИЕ связано с двумя другими:  ЗЛОВРЕДНЫЙ (ная,ное) &lt;---------------&gt; ДОБРОДУШНЫЙ (ная,ное)</QuestText>
+              <AnsID>86437</AnsID>
+              <AnsText>ОДИНАКОВО удалено от обоих понятий</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>5</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14134</QuestID>
+              <QuestText>Определите, как понятие ПРЕУСПЕВАНИЕ связано с двумя другими:  ПОДЧИНЯЮЩИЙСЯ (яся,еся) &lt;---------&gt; ДОМИНИРУЮЩИЙ (щая,щее)</QuestText>
+              <AnsID>86525</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>6</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14147</QuestID>
+              <QuestText>Определите, как понятие ПРЕУСПЕВАНИЕ связано с двумя другими:  НАСТОЙЧИВЫЙ (вая, вое) &lt;-----------&gt; НЕНАСТОЙЧИВЫЙ (вая,воя)</QuestText>
+              <AnsID>86616</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>7</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14160</QuestID>
+              <QuestText>Определите, как понятие ПРЕУСПЕВАНИЕ связано с двумя другими:  ОТКРОВЕННЫЙ (ная,ное) &lt;-----------&gt; НЕОТКРОВЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86707</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>8</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14173</QuestID>
+              <QuestText>Определите, как понятие ПРЕУСПЕВАНИЕ связано с двумя другими:  САМОСТОЯТЕЛЬНЫЙ (ная,ное) &lt;-----&gt; НЕСАМОСТОЯТЕЛЬНЫЙ(ная,ное)</QuestText>
+              <AnsID>86798</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>9</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14186</QuestID>
+              <QuestText>Определите, как понятие ПРЕУСПЕВАНИЕ связано с двумя другими: ИМПУЛЬСИВНЫЙ (ная,ное) &lt;---------&gt; УРАВНОВЕШЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86889</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>10</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14199</QuestID>
+              <QuestText>Определите, как понятие ПРЕУСПЕВАНИЕ связано с двумя другими: НЕСИМПАТИЧНЫЙ (ная,ное) &lt;----------&gt; СИМПАТИЧНЫЙ (ная,ное)</QuestText>
+              <AnsID>86980</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>11</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14212</QuestID>
+              <QuestText>Определите, как понятие ПРЕУСПЕВАНИЕ связано с двумя другими: ПОДАТЛИВЫЙ (вая,вое) &lt;---------&gt; ПРОБИВНОЙ (ная,ное)</QuestText>
+              <AnsID>87071</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>12</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14070</QuestID>
+              <QuestText>Определите, как понятие НЕУДАЧА связано с двумя другими: СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>86077</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>13</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14083</QuestID>
+              <QuestText>Определите, как понятие НЕУДАЧА связано с двумя другими: ПРЕДУПРЕДИТЕЛЬНЫЙ &lt;-------------------&gt; БЕСЦЕРЕМОННЫЙ?</QuestText>
+              <AnsID>86168</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>14</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14096</QuestID>
+              <QuestText>Определите, как понятие НЕУДАЧА связано с двумя другими: УВЕРЕННЫЙ В СЕБЕ &lt;---------------------&gt; НЕУВЕРЕННЫЙ В СЕБЕ (ная,ное) (ная,ное)</QuestText>
+              <AnsID>86259</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>15</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14109</QuestID>
+              <QuestText>Определите, как понятие НЕУДАЧА связано с двумя другими:  НЕДЕЛОВОЙ (вая,ое) &lt;--------------------&gt; ДЕЛОВИТЫЙ(тая,ое)</QuestText>
+              <AnsID>86350</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>16</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14122</QuestID>
+              <QuestText>Определите, как понятие НЕУДАЧА связано с двумя другими:  ЗЛОВРЕДНЫЙ (ная,ное) &lt;---------------&gt; ДОБРОДУШНЫЙ (ная,ное)</QuestText>
+              <AnsID>86441</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>17</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14135</QuestID>
+              <QuestText>Определите, как понятие  НЕУДАЧА связано с двумя другими:  ПОДЧИНЯЮЩИЙСЯ (яся,еся) &lt;---------&gt; ДОМИНИРУЮЩИЙ (щая,щее)</QuestText>
+              <AnsID>86532</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>18</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14148</QuestID>
+              <QuestText>Определите, как понятие НЕУДАЧА связано с двумя другими:  НАСТОЙЧИВЫЙ (вая, вое) &lt;-----------&gt; НЕНАСТОЙЧИВЫЙ (вая,воя)</QuestText>
+              <AnsID>86623</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>19</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14161</QuestID>
+              <QuestText>Определите, как понятие НЕУДАЧА связано с двумя другими:  ОТКРОВЕННЫЙ (ная,ное) &lt;-----------&gt; НЕОТКРОВЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86714</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>20</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14174</QuestID>
+              <QuestText>Определите, как понятие НЕУДАЧА  связано с двумя другими:  САМОСТОЯТЕЛЬНЫЙ (ная,ное) &lt;-----&gt; НЕСАМОСТОЯТЕЛЬНЫЙ(ная,ное)</QuestText>
+              <AnsID>86805</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>21</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14187</QuestID>
+              <QuestText>Определите, как понятие НЕУДАЧА связано с двумя другими: ИМПУЛЬСИВНЫЙ (ная,ное) &lt;---------&gt; УРАВНОВЕШЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86896</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>22</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14200</QuestID>
+              <QuestText>Определите, как понятие НЕУДАЧА связано с двумя другими: НЕСИМПАТИЧНЫЙ (ная,ное) &lt;----------&gt; СИМПАТИЧНЫЙ (ная,ное)</QuestText>
+              <AnsID>86987</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>23</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14213</QuestID>
+              <QuestText>Определите, как понятие НЕУДАЧА связано с двумя другими: ПОДАТЛИВЫЙ (вая,вое) &lt;---------&gt; ПРОБИВНОЙ (ная,ное)</QuestText>
+              <AnsID>87078</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>24</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14071</QuestID>
+              <QuestText>Определите, как понятие ЛЮБОВЬ связано с двумя другими: СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>86084</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>25</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14084</QuestID>
+              <QuestText>Определите, как понятие ЛЮБОВЬ связано с двумя другими: ПРЕДУПРЕДИТЕЛЬНЫЙ &lt;-------------------&gt; БЕСЦЕРЕМОННЫЙ?</QuestText>
+              <AnsID>86175</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>26</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14097</QuestID>
+              <QuestText>Определите, как понятие ЛЮБОВЬ связано с двумя другими: УВЕРЕННЫЙ В СЕБЕ &lt;---------------------&gt; НЕУВЕРЕННЫЙ В СЕБЕ (ная,ное) (ная,ное)</QuestText>
+              <AnsID>86266</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>27</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14110</QuestID>
+              <QuestText>Определите, как понятие ЛЮБОВЬ связано с двумя другими:  НЕДЕЛОВОЙ (вая,ое) &lt;--------------------&gt; ДЕЛОВИТЫЙ(тая,ое)</QuestText>
+              <AnsID>86357</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>28</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14123</QuestID>
+              <QuestText>Определите, как понятие ЛЮБОВЬ связано с двумя другими:  ЗЛОВРЕДНЫЙ (ная,ное) &lt;---------------&gt; ДОБРОДУШНЫЙ (ная,ное)</QuestText>
+              <AnsID>86448</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>29</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14136</QuestID>
+              <QuestText>Определите, как понятие ЛЮБОВЬ связано с двумя другими:  ПОДЧИНЯЮЩИЙСЯ (яся,еся) &lt;---------&gt; ДОМИНИРУЮЩИЙ (щая,щее)</QuestText>
+              <AnsID>86539</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>30</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14149</QuestID>
+              <QuestText>Определите, как понятие ЛЮБОВЬ связано с двумя другими:  НАСТОЙЧИВЫЙ (вая, вое) &lt;-----------&gt; НЕНАСТОЙЧИВЫЙ (вая,воя)</QuestText>
+              <AnsID>86630</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>31</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14162</QuestID>
+              <QuestText>Определите, как понятие ЛЮБОВЬ связано с двумя другими:  ОТКРОВЕННЫЙ (ная,ное) &lt;-----------&gt; НЕОТКРОВЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86721</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>32</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14175</QuestID>
+              <QuestText>Определите, как понятие ЛЮБОВЬ связано с двумя другими:  САМОСТОЯТЕЛЬНЫЙ (ная,ное) &lt;-----&gt; НЕСАМОСТОЯТЕЛЬНЫЙ(ная,ное)</QuestText>
+              <AnsID>86815</AnsID>
+              <AnsText>ОДИНАКОВО удалено от обоих понятий</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>33</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14188</QuestID>
+              <QuestText>Определите, как понятие ЛЮБОВЬ связано с двумя другими: ИМПУЛЬСИВНЫЙ (ная,ное) &lt;---------&gt; УРАВНОВЕШЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86903</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>34</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14201</QuestID>
+              <QuestText>Определите, как понятие ЛЮБОВЬ связано с двумя другими: НЕСИМПАТИЧНЫЙ (ная,ное) &lt;----------&gt; СИМПАТИЧНЫЙ (ная,ное)</QuestText>
+              <AnsID>86994</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>35</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14214</QuestID>
+              <QuestText>Определите, как понятие ЛЮБОВЬ вязано с двумя другими: ПОДАТЛИВЫЙ (вая,вое) &lt;---------&gt; ПРОБИВНОЙ (ная,ное)</QuestText>
+              <AnsID>87085</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>36</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14072</QuestID>
+              <QuestText>Определите, как понятие КОНФЛИКТ связано с двумя другими: СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>86091</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>37</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14085</QuestID>
+              <QuestText>Определите, как понятие КОНФЛИКТсвязано с двумя другими: ПРЕДУПРЕДИТЕЛЬНЫЙ &lt;-------------------&gt; БЕСЦЕРЕМОННЫЙ?</QuestText>
+              <AnsID>86182</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>38</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14098</QuestID>
+              <QuestText>Определите, как понятие КОНФЛИКТ связано с двумя другими: УВЕРЕННЫЙ В СЕБЕ &lt;---------------------&gt; НЕУВЕРЕННЫЙ В СЕБЕ (ная,ное) (ная,ное)</QuestText>
+              <AnsID>86276</AnsID>
+              <AnsText>ОДИНАКОВО удалено от обоих понятий</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>39</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14111</QuestID>
+              <QuestText>Определите, как понятие КОНФЛИКТ связано с двумя другими:  НЕДЕЛОВОЙ (вая,ое) &lt;--------------------&gt; ДЕЛОВИТЫЙ(тая,ое)</QuestText>
+              <AnsID>86364</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>40</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14124</QuestID>
+              <QuestText>Определите, как понятие КОНФЛИКТ связано с двумя другими:  ЗЛОВРЕДНЫЙ (ная,ное) &lt;---------------&gt; ДОБРОДУШНЫЙ (ная,ное)</QuestText>
+              <AnsID>86455</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>41</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14137</QuestID>
+              <QuestText>Определите, как понятие КОНФЛИКТ связано с двумя другими:  ПОДЧИНЯЮЩИЙСЯ (яся,еся) &lt;---------&gt; ДОМИНИРУЮЩИЙ (щая,щее)</QuestText>
+              <AnsID>86546</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>42</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14150</QuestID>
+              <QuestText>Определите, как понятие КОНФЛИКТ связано с двумя другими:  НАСТОЙЧИВЫЙ (вая, вое) &lt;-----------&gt; НЕНАСТОЙЧИВЫЙ (вая,воя)</QuestText>
+              <AnsID>86637</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>43</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14163</QuestID>
+              <QuestText>Определите, как понятие КОНФЛИКТ связано с двумя другими:  ОТКРОВЕННЫЙ (ная,ное) &lt;-----------&gt; НЕОТКРОВЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86728</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>44</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14176</QuestID>
+              <QuestText>Определите, как понятие КОНФЛИКТ связано с двумя другими:  САМОСТОЯТЕЛЬНЫЙ (ная,ное) &lt;-----&gt; НЕСАМОСТОЯТЕЛЬНЫЙ(ная,ное)</QuestText>
+              <AnsID>86819</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>45</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14189</QuestID>
+              <QuestText>Определите, как понятие КОНФЛИКТ связано с двумя другими: ИМПУЛЬСИВНЫЙ (ная,ное) &lt;---------&gt; УРАВНОВЕШЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86910</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>46</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14202</QuestID>
+              <QuestText>Определите, как понятие КОНФЛИКТ связано с двумя другими: НЕСИМПАТИЧНЫЙ (ная,ное) &lt;----------&gt; СИМПАТИЧНЫЙ (ная,ное)</QuestText>
+              <AnsID>87001</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>47</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14215</QuestID>
+              <QuestText>Определите, как понятие КОНФЛИКТ связано с двумя другими: ПОДАТЛИВЫЙ (вая,вое) &lt;---------&gt; ПРОБИВНОЙ (ная,ное)</QuestText>
+              <AnsID>87092</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>48</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14073</QuestID>
+              <QuestText>Определите, как понятие ДЕНЬГИ связано с двумя другими: СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>86098</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>49</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14086</QuestID>
+              <QuestText>Определите, как понятие ДЕНЬГИ связано с двумя другими: ПРЕДУПРЕДИТЕЛЬНЫЙ &lt;-------------------&gt; БЕСЦЕРЕМОННЫЙ?</QuestText>
+              <AnsID>86189</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>50</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14099</QuestID>
+              <QuestText>Определите, как понятие ДЕНЬГИ связано с двумя другими: УВЕРЕННЫЙ В СЕБЕ &lt;---------------------&gt; НЕУВЕРЕННЫЙ В СЕБЕ (ная,ное) (ная,ное)</QuestText>
+              <AnsID>86280</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>51</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14112</QuestID>
+              <QuestText>Определите, как понятие ДЕНЬГИ связано с двумя другими:  НЕДЕЛОВОЙ (вая,ое) &lt;--------------------&gt; ДЕЛОВИТЫЙ(тая,ое)</QuestText>
+              <AnsID>86371</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>52</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14125</QuestID>
+              <QuestText>Определите, как понятие ДЕНЬГИ связано с двумя другими:  ЗЛОВРЕДНЫЙ (ная,ное) &lt;---------------&gt; ДОБРОДУШНЫЙ (ная,ное)</QuestText>
+              <AnsID>86462</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>53</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14138</QuestID>
+              <QuestText>Определите, как понятие ДЕНЬГИ связано с двумя другими:  ПОДЧИНЯЮЩИЙСЯ (яся,еся) &lt;---------&gt; ДОМИНИРУЮЩИЙ (щая,щее)</QuestText>
+              <AnsID>86553</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>54</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14151</QuestID>
+              <QuestText>Определите, как понятие ДЕНЬГИ связано с двумя другими:  НАСТОЙЧИВЫЙ (вая, вое) &lt;-----------&gt; НЕНАСТОЙЧИВЫЙ (вая,воя)</QuestText>
+              <AnsID>86644</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>55</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14164</QuestID>
+              <QuestText>Определите, как понятие ДЕНЬГИ связано с двумя другими:  ОТКРОВЕННЫЙ (ная,ное) &lt;-----------&gt; НЕОТКРОВЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86735</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>56</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14177</QuestID>
+              <QuestText>Определите, как понятие ДЕНЬГИ связано с двумя другими:  САМОСТОЯТЕЛЬНЫЙ (ная,ное) &lt;-----&gt; НЕСАМОСТОЯТЕЛЬНЫЙ(ная,ное)</QuestText>
+              <AnsID>86826</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>57</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14190</QuestID>
+              <QuestText>Определите, как понятие ДЕНЬГИ связано с двумя другими: ИМПУЛЬСИВНЫЙ (ная,ное) &lt;---------&gt; УРАВНОВЕШЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86917</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>58</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14203</QuestID>
+              <QuestText>Определите, как понятие ДЕНЬГИ связано с двумя другими: НЕСИМПАТИЧНЫЙ (ная,ное) &lt;----------&gt; СИМПАТИЧНЫЙ (ная,ное)</QuestText>
+              <AnsID>87008</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>59</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14216</QuestID>
+              <QuestText>Определите, как понятие ДЕНЬГИ связано с двумя другими: ПОДАТЛИВЫЙ (вая,вое) &lt;---------&gt; ПРОБИВНОЙ (ная,ное)</QuestText>
+              <AnsID>87099</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>60</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14074</QuestID>
+              <QuestText>Определите, как понятие ЛЕВЫЙ ДОХОД связано с двумя другими: СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>86105</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>61</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14087</QuestID>
+              <QuestText>Определите, как понятие ЛЕВЫЙ ДОХОД связано с двумя другими: ПРЕДУПРЕДИТЕЛЬНЫЙ &lt;-------------------&gt; БЕСЦЕРЕМОННЫЙ?</QuestText>
+              <AnsID>86196</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>62</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14100</QuestID>
+              <QuestText>Определите, как понятие ЛЕВЫЙ ДОХОД связано с двумя другими: УВЕРЕННЫЙ В СЕБЕ &lt;---------------------&gt; НЕУВЕРЕННЫЙ В СЕБЕ (ная,ное) (ная,ное)</QuestText>
+              <AnsID>86287</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>63</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14113</QuestID>
+              <QuestText>Определите, как понятие ЛЕВЫЙ ДОХОД связано с двумя другими:  НЕДЕЛОВОЙ (вая,ое) &lt;--------------------&gt; ДЕЛОВИТЫЙ(тая,ое)</QuestText>
+              <AnsID>86378</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>64</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14126</QuestID>
+              <QuestText>Определите, как понятие ЛЕВЫЙ ДОХОД связано с двумя другими:  ЗЛОВРЕДНЫЙ (ная,ное) &lt;---------------&gt; ДОБРОДУШНЫЙ (ная,ное)</QuestText>
+              <AnsID>86472</AnsID>
+              <AnsText>ОДИНАКОВО удалено от обоих понятий</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>65</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14139</QuestID>
+              <QuestText>Определите, как понятие ЛЕВЫЙ ДОХОД связано с двумя другими:  ПОДЧИНЯЮЩИЙСЯ (яся,еся) &lt;---------&gt; ДОМИНИРУЮЩИЙ (щая,щее)</QuestText>
+              <AnsID>86560</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>66</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14152</QuestID>
+              <QuestText>Определите, как понятие ЛЕВЫЙ ДОХОД связано с двумя другими:  НАСТОЙЧИВЫЙ (вая, вое) &lt;-----------&gt; НЕНАСТОЙЧИВЫЙ (вая,воя)</QuestText>
+              <AnsID>86651</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>67</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14165</QuestID>
+              <QuestText>Определите, как понятие ЛЕВЫЙ ДОХОД связано с двумя другими:  ОТКРОВЕННЫЙ (ная,ное) &lt;-----------&gt; НЕОТКРОВЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86651</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>68</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14178</QuestID>
+              <QuestText>Определите, как понятие ЛЕВЫЙ ДОХОД связано с двумя другими:  САМОСТОЯТЕЛЬНЫЙ (ная,ное) &lt;-----&gt; НЕСАМОСТОЯТЕЛЬНЫЙ(ная,ное)</QuestText>
+              <AnsID>86833</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>69</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14191</QuestID>
+              <QuestText>Определите, как понятие ЛЕВЫЙ ДОХОД связано с двумя другими: ИМПУЛЬСИВНЫЙ (ная,ное) &lt;---------&gt; УРАВНОВЕШЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86924</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>70</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14204</QuestID>
+              <QuestText>Определите, как понятие ЛЕВЫЙ ДОХОД связано с двумя другими: НЕСИМПАТИЧНЫЙ (ная,ное) &lt;----------&gt; СИМПАТИЧНЫЙ (ная,ное)</QuestText>
+              <AnsID>87015</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>71</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14217</QuestID>
+              <QuestText>Определите, как понятие ЛЕВЫЙ ДОХОД связано с двумя другими: ПОДАТЛИВЫЙ (вая,вое) &lt;---------&gt; ПРОБИВНОЙ (ная,ное)</QuestText>
+              <AnsID>87106</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>72</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14075</QuestID>
+              <QuestText>Определите, как понятие НАЧАЛЬНИК связано с двумя другими: СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>86112</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>73</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14088</QuestID>
+              <QuestText>Определите, как понятие НАЧАЛЬНИК связано с двумя другими: ПРЕДУПРЕДИТЕЛЬНЫЙ &lt;-------------------&gt; БЕСЦЕРЕМОННЫЙ?</QuestText>
+              <AnsID>86203</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>74</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14101</QuestID>
+              <QuestText>Определите, как понятие НАЧАЛЬНИК связано с двумя другими: УВЕРЕННЫЙ В СЕБЕ &lt;---------------------&gt; НЕУВЕРЕННЫЙ В СЕБЕ (ная,ное) (ная,ное)</QuestText>
+              <AnsID>86294</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>75</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14114</QuestID>
+              <QuestText>Определите, как понятие НАЧАЛЬНИК связано с двумя другими:  НЕДЕЛОВОЙ (вая,ое) &lt;--------------------&gt; ДЕЛОВИТЫЙ(тая,ое)</QuestText>
+              <AnsID>86385</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>76</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14127</QuestID>
+              <QuestText>Определите, как понятие НАЧАЛЬНИК связано с двумя другими:  ЗЛОВРЕДНЫЙ (ная,ное) &lt;---------------&gt; ДОБРОДУШНЫЙ (ная,ное)</QuestText>
+              <AnsID>86476</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>77</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14140</QuestID>
+              <QuestText>Определите, как понятие НАЧАЛЬНИК связано с двумя другими:  ПОДЧИНЯЮЩИЙСЯ (яся,еся) &lt;---------&gt; ДОМИНИРУЮЩИЙ (щая,щее)</QuestText>
+              <AnsID>86567</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>78</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14153</QuestID>
+              <QuestText>Определите, как понятие НАЧАЛЬНИК связано с двумя другими:  НАСТОЙЧИВЫЙ (вая, вое) &lt;-----------&gt; НЕНАСТОЙЧИВЫЙ (вая,воя)</QuestText>
+              <AnsID>86658</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>79</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14166</QuestID>
+              <QuestText>Определите, как понятие НАЧАЛЬНИК связано с двумя другими:  ОТКРОВЕННЫЙ (ная,ное) &lt;-----------&gt; НЕОТКРОВЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86658</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>80</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14179</QuestID>
+              <QuestText>Определите, как понятие НАЧАЛЬНИК связано с двумя другими:  САМОСТОЯТЕЛЬНЫЙ (ная,ное) &lt;-----&gt; НЕСАМОСТОЯТЕЛЬНЫЙ(ная,ное)</QuestText>
+              <AnsID>86658</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>81</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14192</QuestID>
+              <QuestText>Определите, как понятие НАЧАЛЬНИК связано с двумя другими: ИМПУЛЬСИВНЫЙ (ная,ное) &lt;---------&gt; УРАВНОВЕШЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86840</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>82</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14205</QuestID>
+              <QuestText>Определите, как понятие НАЧАЛЬНИК связано с двумя другими: НЕСИМПАТИЧНЫЙ (ная,ное) &lt;----------&gt; СИМПАТИЧНЫЙ (ная,ное)</QuestText>
+              <AnsID>87022</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>83</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14218</QuestID>
+              <QuestText>Определите, как понятие НАЧАЛЬНИК связано с двумя другими: ПОДАТЛИВЫЙ (вая,вое) &lt;---------&gt; ПРОБИВНОЙ (ная,ное)</QuestText>
+              <AnsID>87113</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>84</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14076</QuestID>
+              <QuestText>Определите, как понятие Я САМ связано с двумя другими: СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>86119</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>85</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14089</QuestID>
+              <QuestText>Определите, как понятие Я САМ связано с двумя другими: ПРЕДУПРЕДИТЕЛЬНЫЙ &lt;-------------------&gt; БЕСЦЕРЕМОННЫЙ?</QuestText>
+              <AnsID>86210</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>86</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14102</QuestID>
+              <QuestText>Определите, как понятие Я САМ  связано с двумя другими: УВЕРЕННЫЙ В СЕБЕ &lt;---------------------&gt; НЕУВЕРЕННЫЙ В СЕБЕ (ная,ное) (ная,ное)</QuestText>
+              <AnsID>86301</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>87</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14115</QuestID>
+              <QuestText>Определите, как понятие Я САМ связано с двумя другими:  НЕДЕЛОВОЙ (вая,ое) &lt;--------------------&gt; ДЕЛОВИТЫЙ(тая,ое)</QuestText>
+              <AnsID>86392</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>88</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14128</QuestID>
+              <QuestText>Определите, как понятие Я САМ связано с двумя другими:  ЗЛОВРЕДНЫЙ (ная,ное) &lt;---------------&gt; ДОБРОДУШНЫЙ (ная,ное)</QuestText>
+              <AnsID>86483</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>89</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14141</QuestID>
+              <QuestText>Определите, как понятие Я САМ связано с двумя другими:  ПОДЧИНЯЮЩИЙСЯ (яся,еся) &lt;---------&gt; ДОМИНИРУЮЩИЙ (щая,щее)</QuestText>
+              <AnsID>86574</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>90</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14154</QuestID>
+              <QuestText>Определите, как понятие Я САМ связано с двумя другими:  НАСТОЙЧИВЫЙ (вая, вое) &lt;-----------&gt; НЕНАСТОЙЧИВЫЙ (вая,воя)</QuestText>
+              <AnsID>86665</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>91</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14167</QuestID>
+              <QuestText>Определите, как понятие Я САМ связано с двумя другими:  ОТКРОВЕННЫЙ (ная,ное) &lt;-----------&gt; НЕОТКРОВЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86756</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>92</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14180</QuestID>
+              <QuestText>Определите, как понятие Я САМ связано с двумя другими:  САМОСТОЯТЕЛЬНЫЙ (ная,ное) &lt;-----&gt; НЕСАМОСТОЯТЕЛЬНЫЙ(ная,ное)</QuestText>
+              <AnsID>86847</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>93</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14193</QuestID>
+              <QuestText>Определите, как понятие Я САМсвязано с двумя другими: ИМПУЛЬСИВНЫЙ (ная,ное) &lt;---------&gt; УРАВНОВЕШЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86938</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>94</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14206</QuestID>
+              <QuestText>Определите, как понятие Я САМ связано с двумя другими: НЕСИМПАТИЧНЫЙ (ная,ное) &lt;----------&gt; СИМПАТИЧНЫЙ (ная,ное)</QuestText>
+              <AnsID>87029</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>95</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14219</QuestID>
+              <QuestText>Определите, как понятие Я САМ связано с двумя другими: ПОДАТЛИВЫЙ (вая,вое) &lt;---------&gt; ПРОБИВНОЙ (ная,ное)</QuestText>
+              <AnsID>87120</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>96</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14077</QuestID>
+              <QuestText>Определите, как понятие РАБОТА связано с двумя другими: СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>86126</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>97</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14090</QuestID>
+              <QuestText>Определите, как понятие РАБОТА связано с двумя другими: ПРЕДУПРЕДИТЕЛЬНЫЙ &lt;-------------------&gt; БЕСЦЕРЕМОННЫЙ?</QuestText>
+              <AnsID>86217</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>98</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14103</QuestID>
+              <QuestText>Определите, как понятие РАБОТА связано с двумя другими: УВЕРЕННЫЙ В СЕБЕ &lt;---------------------&gt; НЕУВЕРЕННЫЙ В СЕБЕ (ная,ное) (ная,ное)</QuestText>
+              <AnsID>86308</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>99</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14116</QuestID>
+              <QuestText>Определите, как понятие РАБОТА связано с двумя другими:  НЕДЕЛОВОЙ (вая,ое) &lt;--------------------&gt; ДЕЛОВИТЫЙ(тая,ое)</QuestText>
+              <AnsID>86399</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>100</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14129</QuestID>
+              <QuestText>Определите, как понятие РАБОТА связано с двумя другими:  ЗЛОВРЕДНЫЙ (ная,ное) &lt;---------------&gt; ДОБРОДУШНЫЙ (ная,ное)</QuestText>
+              <AnsID>86490</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>101</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14142</QuestID>
+              <QuestText>Определите, как понятие РАБОТА связано с двумя другими:  ПОДЧИНЯЮЩИЙСЯ (яся,еся) &lt;---------&gt; ДОМИНИРУЮЩИЙ (щая,щее)</QuestText>
+              <AnsID>86581</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>102</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14155</QuestID>
+              <QuestText>Определите, как понятие РАБОТА связано с двумя другими:  НАСТОЙЧИВЫЙ (вая, вое) &lt;-----------&gt; НЕНАСТОЙЧИВЫЙ (вая,воя)</QuestText>
+              <AnsID>86672</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>103</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14168</QuestID>
+              <QuestText>Определите, как понятие РАБОТА связано с двумя другими:  ОТКРОВЕННЫЙ (ная,ное) &lt;-----------&gt; НЕОТКРОВЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86763</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>104</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14181</QuestID>
+              <QuestText>Определите, как понятие РАБОТА связано с двумя другими:  САМОСТОЯТЕЛЬНЫЙ (ная,ное) &lt;-----&gt; НЕСАМОСТОЯТЕЛЬНЫЙ(ная,ное)</QuestText>
+              <AnsID>86854</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>105</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14194</QuestID>
+              <QuestText>Определите, как понятие РАБОТА связано с двумя другими: ИМПУЛЬСИВНЫЙ (ная,ное) &lt;---------&gt; УРАВНОВЕШЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86948</AnsID>
+              <AnsText>ОДИНАКОВО удалено от обоих понятий</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>106</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14207</QuestID>
+              <QuestText>Определите, как понятие РАБОТА связано с двумя другими: НЕСИМПАТИЧНЫЙ (ная,ное) &lt;----------&gt; СИМПАТИЧНЫЙ (ная,ное)</QuestText>
+              <AnsID>87036</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>107</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14220</QuestID>
+              <QuestText>Определите, как понятие РАБОТА связано с двумя другими: ПОДАТЛИВЫЙ (вая,вое) &lt;---------&gt; ПРОБИВНОЙ (ная,ное)</QuestText>
+              <AnsID>87127</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>108</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14078</QuestID>
+              <QuestText>Определите, как понятие НАРУШЕНИЕ связано с двумя другими: СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>86133</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>109</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14091</QuestID>
+              <QuestText>Определите, как понятие НАРУШЕНИЕ связано с двумя другими: ПРЕДУПРЕДИТЕЛЬНЫЙ &lt;-------------------&gt; БЕСЦЕРЕМОННЫЙ?</QuestText>
+              <AnsID>86224</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>110</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14104</QuestID>
+              <QuestText>Определите, как понятие НАРУШЕНИЕ связано с двумя другими: УВЕРЕННЫЙ В СЕБЕ &lt;---------------------&gt; НЕУВЕРЕННЫЙ В СЕБЕ (ная,ное) (ная,ное)</QuestText>
+              <AnsID>86315</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>111</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14117</QuestID>
+              <QuestText>Определите, как понятие НАРУШЕНИЕ связано с двумя другими:  НЕДЕЛОВОЙ (вая,ое) &lt;--------------------&gt; ДЕЛОВИТЫЙ(тая,ое)</QuestText>
+              <AnsID>86406</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>112</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14130</QuestID>
+              <QuestText>Определите, как понятие НАРУШЕНИЕ связано с двумя другими:  ЗЛОВРЕДНЫЙ (ная,ное) &lt;---------------&gt; ДОБРОДУШНЫЙ (ная,ное)</QuestText>
+              <AnsID>86497</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>113</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14143</QuestID>
+              <QuestText>Определите, как понятие НАРУШЕНИЕ связано с двумя другими:  ПОДЧИНЯЮЩИЙСЯ (яся,еся) &lt;---------&gt; ДОМИНИРУЮЩИЙ (щая,щее)</QuestText>
+              <AnsID>86588</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>114</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14156</QuestID>
+              <QuestText>Определите, как понятие НАРУШЕНИЕ связано с двумя другими:  НАСТОЙЧИВЫЙ (вая, вое) &lt;-----------&gt; НЕНАСТОЙЧИВЫЙ (вая,воя)</QuestText>
+              <AnsID>86679</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>115</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14169</QuestID>
+              <QuestText>Определите, как понятие НАРУШЕНИЕ связано с двумя другими:  ОТКРОВЕННЫЙ (ная,ное) &lt;-----------&gt; НЕОТКРОВЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86770</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>116</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14182</QuestID>
+              <QuestText>Определите, как понятие НАРУШЕНИЕ связано с двумя другими:  САМОСТОЯТЕЛЬНЫЙ (ная,ное) &lt;-----&gt; НЕСАМОСТОЯТЕЛЬНЫЙ(ная,ное)</QuestText>
+              <AnsID>86861</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>117</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14195</QuestID>
+              <QuestText>Определите, как понятие НАРУШЕНИЕ связано с двумя другими: ИМПУЛЬСИВНЫЙ (ная,ное) &lt;---------&gt; УРАВНОВЕШЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86952</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>118</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14208</QuestID>
+              <QuestText>Определите, как понятие НАРУШЕНИЕсвязано с двумя другими: НЕСИМПАТИЧНЫЙ (ная,ное) &lt;----------&gt; СИМПАТИЧНЫЙ (ная,ное)</QuestText>
+              <AnsID>87043</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>119</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14221</QuestID>
+              <QuestText>Определите, как понятие НАРУШЕНИЕ связано с двумя другими: ПОДАТЛИВЫЙ (вая,вое) &lt;---------&gt; ПРОБИВНОЙ (ная,ное)</QuestText>
+              <AnsID>87134</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>120</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14079</QuestID>
+              <QuestText>Определите, как понятие СЕМЬЯ связано с двумя другими: СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>86140</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>121</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14092</QuestID>
+              <QuestText>Определите, как понятие СЕМЬЯ связано с двумя другими: ПРЕДУПРЕДИТЕЛЬНЫЙ &lt;-------------------&gt; БЕСЦЕРЕМОННЫЙ?</QuestText>
+              <AnsID>86231</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>122</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14105</QuestID>
+              <QuestText>Определите, как понятие СЕМЬЯ связано с двумя другими: УВЕРЕННЫЙ В СЕБЕ &lt;---------------------&gt; НЕУВЕРЕННЫЙ В СЕБЕ (ная,ное) (ная,ное)</QuestText>
+              <AnsID>86322</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>123</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14118</QuestID>
+              <QuestText>Определите, как понятие СЕМЬЯ связано с двумя другими:  НЕДЕЛОВОЙ (вая,ое) &lt;--------------------&gt; ДЕЛОВИТЫЙ(тая,ое)</QuestText>
+              <AnsID>86413</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>124</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14131</QuestID>
+              <QuestText>Определите, как понятие СЕМЬЯ связано с двумя другими:  ЗЛОВРЕДНЫЙ (ная,ное) &lt;---------------&gt; ДОБРОДУШНЫЙ (ная,ное)</QuestText>
+              <AnsID>86504</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>125</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14144</QuestID>
+              <QuestText>Определите, как понятие СЕМЬЯ связано с двумя другими:  ПОДЧИНЯЮЩИЙСЯ (яся,еся) &lt;---------&gt; ДОМИНИРУЮЩИЙ (щая,щее)</QuestText>
+              <AnsID>86595</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>126</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14157</QuestID>
+              <QuestText>Определите, как понятие СЕМЬЯ связано с двумя другими:  НАСТОЙЧИВЫЙ (вая, вое) &lt;-----------&gt; НЕНАСТОЙЧИВЫЙ (вая,воя)</QuestText>
+              <AnsID>86686</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>127</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14170</QuestID>
+              <QuestText>Определите, как понятие СЕМЬЯ связано с двумя другими:  ОТКРОВЕННЫЙ (ная,ное) &lt;-----------&gt; НЕОТКРОВЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86777</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>128</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14183</QuestID>
+              <QuestText>Определите, как понятие СЕМЬЯ связано с двумя другими:  САМОСТОЯТЕЛЬНЫЙ (ная,ное) &lt;-----&gt; НЕСАМОСТОЯТЕЛЬНЫЙ(ная,ное)</QuestText>
+              <AnsID>86868</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>129</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14196</QuestID>
+              <QuestText>Определите, как понятие СЕМЬЯ связано с двумя другими: ИМПУЛЬСИВНЫЙ (ная,ное) &lt;---------&gt; УРАВНОВЕШЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86959</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>130</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14209</QuestID>
+              <QuestText>Определите, как понятие СЕМЬЯ связано с двумя другими: НЕСИМПАТИЧНЫЙ (ная,ное) &lt;----------&gt; СИМПАТИЧНЫЙ (ная,ное)</QuestText>
+              <AnsID>87050</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>131</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14222</QuestID>
+              <QuestText>Определите, как понятие СЕМЬЯ связано с двумя другими: ПОДАТЛИВЫЙ (вая,вое) &lt;---------&gt; ПРОБИВНОЙ (ная,ное)</QuestText>
+              <AnsID>87141</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>132</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14080</QuestID>
+              <QuestText>Определите, как понятие СЕКС связано с двумя другими: СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>86147</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>133</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14093</QuestID>
+              <QuestText>Определите, как понятие СЕКС связано с двумя другими: ПРЕДУПРЕДИТЕЛЬНЫЙ &lt;-------------------&gt; БЕСЦЕРЕМОННЫЙ?</QuestText>
+              <AnsID>86238</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>134</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14106</QuestID>
+              <QuestText>Определите, как понятие СЕКС связано с двумя другими: УВЕРЕННЫЙ В СЕБЕ &lt;---------------------&gt; НЕУВЕРЕННЫЙ В СЕБЕ (ная,ное) (ная,ное)</QuestText>
+              <AnsID>86329</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>135</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14119</QuestID>
+              <QuestText>Определите, как понятие СЕКС связано с двумя другими:  НЕДЕЛОВОЙ (вая,ое) &lt;--------------------&gt; ДЕЛОВИТЫЙ(тая,ое)</QuestText>
+              <AnsID>86420</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>136</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14132</QuestID>
+              <QuestText>Определите, как понятие СЕКС связано с двумя другими:  ЗЛОВРЕДНЫЙ (ная,ное) &lt;---------------&gt; ДОБРОДУШНЫЙ (ная,ное)</QuestText>
+              <AnsID>86511</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>137</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14145</QuestID>
+              <QuestText>Определите, как понятие СЕКС связано с двумя другими:  ПОДЧИНЯЮЩИЙСЯ (яся,еся) &lt;---------&gt; ДОМИНИРУЮЩИЙ (щая,щее)</QuestText>
+              <AnsID>86602</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>138</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14158</QuestID>
+              <QuestText>Определите, как понятие СЕКС связано с двумя другими:  НАСТОЙЧИВЫЙ (вая, вое) &lt;-----------&gt; НЕНАСТОЙЧИВЫЙ (вая,воя)</QuestText>
+              <AnsID>86693</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>139</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14171</QuestID>
+              <QuestText>Определите, как понятие СЕКС связано с двумя другими:  ОТКРОВЕННЫЙ (ная,ное) &lt;-----------&gt; НЕОТКРОВЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86784</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>140</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14184</QuestID>
+              <QuestText>Определите, как понятие СЕКС связано с двумя другими:  САМОСТОЯТЕЛЬНЫЙ (ная,ное) &lt;-----&gt; НЕСАМОСТОЯТЕЛЬНЫЙ(ная,ное)</QuestText>
+              <AnsID>86875</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>141</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14197</QuestID>
+              <QuestText>Определите, как понятие СЕКС связано с двумя другими: ИМПУЛЬСИВНЫЙ (ная,ное) &lt;---------&gt; УРАВНОВЕШЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86966</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>142</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14210</QuestID>
+              <QuestText>Определите, как понятие СЕКС связано с двумя другими: НЕСИМПАТИЧНЫЙ (ная,ное) &lt;----------&gt; СИМПАТИЧНЫЙ (ная,ное)</QuestText>
+              <AnsID>87057</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>143</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14223</QuestID>
+              <QuestText>Определите, как понятие СЕКС связано с двумя другими: ПОДАТЛИВЫЙ (вая,вое) &lt;---------&gt; ПРОБИВНОЙ (ная,ное)</QuestText>
+              <AnsID>87148</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>144</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14081</QuestID>
+              <QuestText>Определите, как понятие ДЕТИ связано с двумя другими: СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>86154</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>145</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14094</QuestID>
+              <QuestText>Определите, как понятие ДЕТИ связано с двумя другими: ПРЕДУПРЕДИТЕЛЬНЫЙ &lt;-------------------&gt; БЕСЦЕРЕМОННЫЙ?</QuestText>
+              <AnsID>86245</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>146</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14107</QuestID>
+              <QuestText>Определите, как понятие ДЕТИ связано с двумя другими: УВЕРЕННЫЙ В СЕБЕ &lt;---------------------&gt; НЕУВЕРЕННЫЙ В СЕБЕ (ная,ное) (ная,ное)</QuestText>
+              <AnsID>86336</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>147</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14120</QuestID>
+              <QuestText>Определите, как понятие ДЕТИ связано с двумя другими:  НЕДЕЛОВОЙ (вая,ое) &lt;--------------------&gt; ДЕЛОВИТЫЙ(тая,ое)</QuestText>
+              <AnsID>86427</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>148</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14133</QuestID>
+              <QuestText>Определите, как понятие ДЕТИ связано с двумя другими:  ЗЛОВРЕДНЫЙ (ная,ное) &lt;---------------&gt; ДОБРОДУШНЫЙ (ная,ное)</QuestText>
+              <AnsID>86518</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>149</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14146</QuestID>
+              <QuestText>Определите, как понятие ДЕТИ связано с двумя другими:  ПОДЧИНЯЮЩИЙСЯ (яся,еся) &lt;---------&gt; ДОМИНИРУЮЩИЙ (щая,щее)</QuestText>
+              <AnsID>86610</AnsID>
+              <AnsText>ПОЧТИ ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>150</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14159</QuestID>
+              <QuestText>Определите, как понятие ДЕТИ связано с двумя другими:  НАСТОЙЧИВЫЙ (вая, вое) &lt;-----------&gt; НЕНАСТОЙЧИВЫЙ (вая,воя)</QuestText>
+              <AnsID>86700</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>151</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14172</QuestID>
+              <QuestText>Определите, как понятие ДЕТИ связано с двумя другими:  ОТКРОВЕННЫЙ (ная,ное) &lt;-----------&gt; НЕОТКРОВЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86792</AnsID>
+              <AnsText>ПОЧТИ ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>152</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14185</QuestID>
+              <QuestText>Определите, как понятие ДЕТИ связано с двумя другими:  САМОСТОЯТЕЛЬНЫЙ (ная,ное) &lt;-----&gt; НЕСАМОСТОЯТЕЛЬНЫЙ(ная,ное)</QuestText>
+              <AnsID>86882</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>153</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14198</QuestID>
+              <QuestText>Определите, как понятие ДЕТИ связано с двумя другими: ИМПУЛЬСИВНЫЙ (ная,ное) &lt;---------&gt; УРАВНОВЕШЕННЫЙ (ная,ное)</QuestText>
+              <AnsID>86973</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>154</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14211</QuestID>
+              <QuestText>Определите, как понятие ДЕТИ связано с двумя другими: НЕСИМПАТИЧНЫЙ (ная,ное) &lt;----------&gt; СИМПАТИЧНЫЙ (ная,ное)</QuestText>
+              <AnsID>87064</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>155</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14224</QuestID>
+              <QuestText>Определите, как понятие ДЕТИ связано с двумя другими: ПОДАТЛИВЫЙ (вая,вое) &lt;---------&gt; ПРОБИВНОЙ (ная,ное)</QuestText>
+              <AnsID>87155</AnsID>
+              <AnsText>ВЕСЬМА ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>0:0:2</Time>
+              <QuestNumber>156</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+      </Tests>
+    </Examinee>
+  </Examinees>
+</Archiv>

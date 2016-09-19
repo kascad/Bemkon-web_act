@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Archiv>
+  <name>E:\Rooms\u412978\dev.bemkon.ru\www\Archives\15\test020716.arh</name>
+  <Examinees>
+    <Examinee>
+      <ID>1</ID>
+      <Name>new</Name>
+      <Description>
+      </Description>
+      <Tests>
+        <Test>
+          <ID>123</ID>
+          <Name>SD8</Name>
+          <FullTime>00:01:06</FullTime>
+          <Date>02.07.2016 12:27:33</Date>
+          <IsFinished>true</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>14363</QuestID>
+              <QuestText>ЧЕрный: а большой -б маленький</QuestText>
+              <AnsID>87936</AnsID>
+              <AnsText>а</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:04</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14370</QuestID>
+              <QuestText>Черный: а скользкий - б шершавй</QuestText>
+              <AnsID>87972</AnsID>
+              <AnsText>скорее а</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14377</QuestID>
+              <QuestText>Черный: а хороший - б плохой</QuestText>
+              <AnsID>88009</AnsID>
+              <AnsText>скорее б</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>3</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14384</QuestID>
+              <QuestText>Черный: а глубокий - б мелкий</QuestText>
+              <AnsID>88041</AnsID>
+              <AnsText>а</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:04</Time>
+              <QuestNumber>4</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14364</QuestID>
+              <QuestText>Белуга: а большой -б маленький</QuestText>
+              <AnsID>87941</AnsID>
+              <AnsText>а</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:07</Time>
+              <QuestNumber>5</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14371</QuestID>
+              <QuestText>Белуга: а скользкий - б шершавй</QuestText>
+              <AnsID>87976</AnsID>
+              <AnsText>а</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>6</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14378</QuestID>
+              <QuestText>Белуга: а хороший - б плохой</QuestText>
+              <AnsID>88011</AnsID>
+              <AnsText>а</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>7</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14385</QuestID>
+              <QuestText>Белуга: а глубокий - б мелкий</QuestText>
+              <AnsID>88046</AnsID>
+              <AnsText>а</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>8</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14365</QuestID>
+              <QuestText>Укроп: а большой -б маленький</QuestText>
+              <AnsID>87950</AnsID>
+              <AnsText>б</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>9</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14372</QuestID>
+              <QuestText>Укроп: а скользкий - б шершавй</QuestText>
+              <AnsID>87984</AnsID>
+              <AnsText>скорее б</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>10</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14379</QuestID>
+              <QuestText>Укроп: а хороший - б плохой</QuestText>
+              <AnsID>88018</AnsID>
+              <AnsText>ничего</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>11</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14386</QuestID>
+              <QuestText>Укроп: а глубокий - б мелкий</QuestText>
+              <AnsID>88054</AnsID>
+              <AnsText>скорее б</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>12</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14366</QuestID>
+              <QuestText>Осанка: а большой -б маленький</QuestText>
+              <AnsID>87954</AnsID>
+              <AnsText>скорее б</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>13</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14373</QuestID>
+              <QuestText>Осанка: а скользкий - б шершавй</QuestText>
+              <AnsID>87990</AnsID>
+              <AnsText>б</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>14</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14380</QuestID>
+              <QuestText>Осанка: а хороший - б плохой</QuestText>
+              <AnsID>88025</AnsID>
+              <AnsText>б</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>15</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14387</QuestID>
+              <QuestText>Осанка: а глубокий - б мелкий</QuestText>
+              <AnsID>88060</AnsID>
+              <AnsText>б</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>16</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14367</QuestID>
+              <QuestText>Боль: а большой -б маленький</QuestText>
+              <AnsID>87956</AnsID>
+              <AnsText>а</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>17</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14374</QuestID>
+              <QuestText>Боль: а скользкий - б шершавй</QuestText>
+              <AnsID>87991</AnsID>
+              <AnsText>а</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>18</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14381</QuestID>
+              <QuestText>Боль: а хороший - б плохой</QuestText>
+              <AnsID>88030</AnsID>
+              <AnsText>б</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>19</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14388</QuestID>
+              <QuestText>Боль: а глубокий - б мелкий</QuestText>
+              <AnsID>88065</AnsID>
+              <AnsText>б</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>20</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14368</QuestID>
+              <QuestText>Сахар: а большой -б маленький</QuestText>
+              <AnsID>87965</AnsID>
+              <AnsText>б</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>21</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14375</QuestID>
+              <QuestText>Сахар: а скользкий - б шершавй</QuestText>
+              <AnsID>88000</AnsID>
+              <AnsText>б</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>22</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14382</QuestID>
+              <QuestText>Сахар: а хороший - б плохой</QuestText>
+              <AnsID>88035</AnsID>
+              <AnsText>б</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>23</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14389</QuestID>
+              <QuestText>Сахар: а глубокий - б мелкий</QuestText>
+              <AnsID>88070</AnsID>
+              <AnsText>б</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>24</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14369</QuestID>
+              <QuestText>Соль: а большой -б маленький</QuestText>
+              <AnsID>87970</AnsID>
+              <AnsText>б</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>25</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14376</QuestID>
+              <QuestText>Соль: а скользкий - б шершавй</QuestText>
+              <AnsID>88003</AnsID>
+              <AnsText>ничего</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>26</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14383</QuestID>
+              <QuestText>Соль: а хороший - б плохой</QuestText>
+              <AnsID>88039</AnsID>
+              <AnsText>скорее б</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>27</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14390</QuestID>
+              <QuestText>Соль: а глубокий - б мелкий</QuestText>
+              <AnsID>88075</AnsID>
+              <AnsText>б</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>28</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+      </Tests>
+    </Examinee>
+  </Examinees>
+</Archiv>

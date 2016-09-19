@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Archiv>
+  <name>C:\Users\admin\YandexDisk\bemkon.ru\Code\Bemkon-web_act\bemkon.ru\Archives\15\test2507.arh</name>
+  <Examinees>
+    <Examinee>
+      <ID>1</ID>
+      <Name>test</Name>
+      <Description>
+      </Description>
+      <Tests>
+        <Test>
+          <ID>118</ID>
+          <Name>SDB</Name>
+          <FullTime />
+          <Date>25.07.2016 12:13:59</Date>
+          <IsFinished>false</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>14391</QuestID>
+              <QuestText>Определите, как понятие СЛУЖЕНИЕ ОБЩЕСТВУ связано с двумя другими:                  СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>88077</AnsID>
+              <AnsText>ПОЧТИ ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14409</QuestID>
+              <QuestText>Определите, как понятие ПРОФЕССИОНАЛИЗМ связано с двумя другими: СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>88204</AnsID>
+              <AnsText>НЕКОТОРОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14427</QuestID>
+              <QuestText>Определите, как понятие ЛЮБОВЬ связано с двумя другими: СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>88333</AnsID>
+              <AnsText>ПОЧТИ ПОЛНОЕ совпадение с ПРАВЫМ понятием</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>3</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14445</QuestID>
+              <QuestText>Определите, как понятие КОНФЛИКТ связано с двумя другими: СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>88458</AnsID>
+              <AnsText>НЕКОТОРОЕ совпадение с ПРАВЫМ понятием</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>4</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14463</QuestID>
+              <QuestText>Определите, как понятие ДЕНЬГИ связано с двумя другими: СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>88583</AnsID>
+              <AnsText>ОДИНАКОВО удалено от обоих понятий</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>5</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14481</QuestID>
+              <QuestText>Определите, как понятие ВЛАСТЬ связано с двумя другими: СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>88708</AnsID>
+              <AnsText>НЕКОТОРОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>6</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14499</QuestID>
+              <QuestText>Определите, как представленная картинка связана с двумя понятиями: СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>88834</AnsID>
+              <AnsText>НЕКОТОРОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>7</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14517</QuestID>
+              <QuestText>Определите, как понятие Я САМ связано с двумя другими: СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>88960</AnsID>
+              <AnsText>НЕКОТОРОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>8</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>14535</QuestID>
+              <QuestText>Определите, как понятие РАБОТА связано с двумя другими: СПОКОЙНЫЙ &lt;------------+------------&gt; ОЖИВЛЕННЫЙ?</QuestText>
+              <AnsID>89085</AnsID>
+              <AnsText>ПОЧТИ ПОЛНОЕ совпадение с ЛЕВЫМ понятием</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>0:0:1</Time>
+              <QuestNumber>9</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+      </Tests>
+    </Examinee>
+  </Examinees>
+</Archiv>

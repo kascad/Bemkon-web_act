@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="professor_testingModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.4.0" ProviderManifestToken="4.0" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="professor_testingModelStoreContainer">
+          <EntitySet Name="Answers" EntityType="professor_testingModel.Store.Answers" store:Type="Tables" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Batteries" EntityType="professor_testingModel.Store.Batteries" store:Type="Tables" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="BatteryTests" EntityType="professor_testingModel.Store.BatteryTests" store:Type="Tables" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Categories" EntityType="professor_testingModel.Store.Categories" store:Type="Tables" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Conseqs" EntityType="professor_testingModel.Store.Conseqs" store:Type="Tables" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="InterpretRules" EntityType="professor_testingModel.Store.InterpretRules" store:Type="Tables" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Interprets" EntityType="professor_testingModel.Store.Interprets" store:Type="Tables" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Questions" EntityType="professor_testingModel.Store.Questions" store:Type="Tables" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="QuestTypes" EntityType="professor_testingModel.Store.QuestTypes" store:Type="Tables" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Scales" EntityType="professor_testingModel.Store.Scales" store:Type="Tables" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="ScaleWeights" EntityType="professor_testingModel.Store.ScaleWeights" store:Type="Tables" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Tests" EntityType="professor_testingModel.Store.Tests" store:Type="Tables" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Users" EntityType="professor_testingModel.Store.Users" store:Type="Tables" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+        </EntityContainer>
+        <EntityType Name="Answers">
+          <Key>
+            <PropertyRef Name="AnsID" />
+          </Key>
+          <Property Name="AnsID" Type="int" Nullable="false" />
+          <Property Name="QuestID" Type="int" Nullable="false" />
+          <Property Name="AnsNum" Type="int" />
+          <Property Name="AnsText" Type="nvarchar" Nullable="false" MaxLength="150" />
+          <Property Name="NextQuestNum" Type="int" />
+          <Property Name="__sysChangeTxBsn" Type="bigint" />
+          <Property Name="__sysInsertTxBsn" Type="bigint" />
+          <Property Name="__sysTrackingContext" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="Batteries">
+          <Key>
+            <PropertyRef Name="BatteryID" />
+          </Key>
+          <Property Name="BatteryID" Type="int" Nullable="false" />
+          <Property Name="BatteryName" Type="nvarchar" MaxLength="10" />
+          <Property Name="Description" Type="nvarchar" MaxLength="150" />
+          <Property Name="__sysChangeTxBsn" Type="bigint" />
+          <Property Name="__sysInsertTxBsn" Type="bigint" />
+          <Property Name="__sysTrackingContext" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="BatteryTests">
+          <Key>
+            <PropertyRef Name="BatteryTestID" />
+          </Key>
+          <Property Name="BatteryTestID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="BatteryID" Type="int" Nullable="false" />
+          <Property Name="TestID" Type="int" Nullable="false" />
+          <Property Name="Number" Type="int" Nullable="false" />
+          <Property Name="__sysChangeTxBsn" Type="bigint" />
+          <Property Name="__sysInsertTxBsn" Type="bigint" />
+          <Property Name="__sysTrackingContext" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="Categories">
+          <Key>
+            <PropertyRef Name="CategoryID" />
+          </Key>
+          <Property Name="CategoryID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="__sysChangeTxBsn" Type="bigint" />
+          <Property Name="__sysInsertTxBsn" Type="bigint" />
+          <Property Name="__sysTrackingContext" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="Conseqs">
+          <Key>
+            <PropertyRef Name="ConseqID" />
+          </Key>
+          <Property Name="ConseqID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="RuleID" Type="int" Nullable="false" />
+          <Property Name="ConseqText" Type="nvarchar" MaxLength="1200" />
+          <Property Name="TXT_TXT_N" Type="int" />
+          <Property Name="__sysChangeTxBsn" Type="bigint" />
+          <Property Name="__sysInsertTxBsn" Type="bigint" />
+          <Property Name="__sysTrackingContext" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="InterpretRules">
+          <Key>
+            <PropertyRef Name="RuleID" />
+          </Key>
+          <Property Name="RuleID" Type="int" Nullable="false" />
+          <Property Name="InterpretID" Type="int" Nullable="false" />
+          <Property Name="RuleText" Type="nvarchar" MaxLength="150" />
+          <Property Name="CON_TXT_N" Type="int" />
+          <Property Name="__sysChangeTxBsn" Type="bigint" />
+          <Property Name="__sysInsertTxBsn" Type="bigint" />
+          <Property Name="__sysTrackingContext" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="Interprets">
+          <Key>
+            <PropertyRef Name="InterpretID" />
+          </Key>
+          <Property Name="InterpretID" Type="int" Nullable="false" />
+          <Property Name="InterpretName" Type="nvarchar" Nullable="false" MaxLength="60" />
+          <Property Name="InterpretShortName" Type="nvarchar" Nullable="false" MaxLength="6" />
+          <Property Name="__sysChangeTxBsn" Type="bigint" />
+          <Property Name="__sysInsertTxBsn" Type="bigint" />
+          <Property Name="__sysTrackingContext" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="Questions">
+          <Key>
+            <PropertyRef Name="QuestID" />
+          </Key>
+          <Property Name="QuestID" Type="int" Nullable="false" />
+          <Property Name="TestID" Type="int" Nullable="false" />
+          <Property Name="QuestText" Type="nvarchar" Nullable="false" MaxLength="240" />
+          <Property Name="QuestType" Type="int" Nullable="false" />
+          <Property Name="QuestNum" Type="int" />
+          <Property Name="QuestImg" Type="image" />
+          <Property Name="__sysChangeTxBsn" Type="bigint" />
+          <Property Name="__sysInsertTxBsn" Type="bigint" />
+          <Property Name="__sysTrackingContext" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="QuestTypes">
+          <Key>
+            <PropertyRef Name="QuestTypeID" />
+          </Key>
+          <Property Name="QuestTypeID" Type="int" Nullable="false" />
+          <Property Name="TypeName" Type="nvarchar" Nullable="false" MaxLength="150" />
+          <Property Name="__sysChangeTxBsn" Type="bigint" />
+          <Property Name="__sysInsertTxBsn" Type="bigint" />
+          <Property Name="__sysTrackingContext" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="Scales">
+          <Key>
+            <PropertyRef Name="ScaleID" />
+          </Key>
+          <Property Name="ScaleID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ScaleName" Type="nvarchar" MaxLength="20" />
+          <Property Name="ScaleShortName" Type="nvarchar" MaxLength="2" />
+          <Property Name="TestID" Type="int" Nullable="false" />
+          <Property Name="BallAVR" Type="float" />
+          <Property Name="BallMin" Type="float" />
+          <Property Name="BallMax" Type="float" />
+          <Property Name="BallSTD" Type="float" />
+          <Property Name="Point0" Type="float" />
+          <Property Name="Point1" Type="float" />
+          <Property Name="Point2" Type="float" />
+          <Property Name="Point3" Type="float" />
+          <Property Name="Point4" Type="float" />
+          <Property Name="__sysChangeTxBsn" Type="bigint" />
+          <Property Name="__sysInsertTxBsn" Type="bigint" />
+          <Property Name="__sysTrackingContext" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="ScaleWeights">
+          <Key>
+            <PropertyRef Name="ScaleWeightID" />
+          </Key>
+          <Property Name="ScaleWeightID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AnsID" Type="int" />
+          <Property Name="ScaleID" Type="int" />
+          <Property Name="Weight" Type="float" />
+          <Property Name="__sysChangeTxBsn" Type="bigint" />
+          <Property Name="__sysInsertTxBsn" Type="bigint" />
+          <Property Name="__sysTrackingContext" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="Tests">
+          <Key>
+            <PropertyRef Name="TestID" />
+          </Key>
+          <Property Name="TestID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ShortName" Type="nvarchar" Nullable="false" MaxLength="5" />
+          <Property Name="FullName" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="CategoryID" Type="int" Nullable="false" />
+          <Property Name="Author" Type="nvarchar" MaxLength="50" />
+          <Property Name="Date" Type="datetime" />
+          <Property Name="Description" Type="nvarchar" MaxLength="150" />
+          <Property Name="TestingCount" Type="int" Nullable="false" />
+          <Property Name="Preamble" Type="nvarchar" MaxLength="50" />
+          <Property Name="HorisontalAnswers" Type="bit" Nullable="false" />
+          <Property Name="__sysChangeTxBsn" Type="bigint" />
+          <Property Name="__sysInsertTxBsn" Type="bigint" />
+          <Property Name="__sysTrackingContext" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" />
+          <Property Name="Priv" Type="int" Nullable="false" />
+          <Property Name="nName" Type="nvarchar" MaxLength="250" />
+          <Property Name="Ban" Type="tinyint" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="350" />
+          <Property Name="Active" Type="tinyint" Nullable="false" />
+          <Property Name="AID" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Expiration" Type="int" />
+          <Property Name="LastArchive" Type="nvarchar" MaxLength="150" />
+          <Property Name="LastIdExaminee" Type="int" Nullable="false" />
+          <Property Name="__sysChangeTxBsn" Type="bigint" />
+          <Property Name="__sysInsertTxBsn" Type="bigint" />
+          <Property Name="__sysTrackingContext" Type="uniqueidentifier" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="professor_testingModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2009/11/edm" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+        <EntityContainer Name="professor_testingEntities">
+          <EntitySet Name="Answers" EntityType="professor_testingModel.Answers" />
+          <EntitySet Name="Batteries" EntityType="professor_testingModel.Batteries" />
+          <EntitySet Name="BatteryTests" EntityType="professor_testingModel.BatteryTests" />
+          <EntitySet Name="Categories" EntityType="professor_testingModel.Categories" />
+          <EntitySet Name="Conseqs" EntityType="professor_testingModel.Conseqs" />
+          <EntitySet Name="InterpretRules" EntityType="professor_testingModel.InterpretRules" />
+          <EntitySet Name="Interprets" EntityType="professor_testingModel.Interprets" />
+          <EntitySet Name="Questions" EntityType="professor_testingModel.Questions" />
+          <EntitySet Name="QuestTypes" EntityType="professor_testingModel.QuestTypes" />
+          <EntitySet Name="Scales" EntityType="professor_testingModel.Scales" />
+          <EntitySet Name="ScaleWeights" EntityType="professor_testingModel.ScaleWeights" />
+          <EntitySet Name="Tests" EntityType="professor_testingModel.Tests" />
+          <EntitySet Name="Users" EntityType="professor_testingModel.Users" />
+        </EntityContainer>
+        <EntityType Name="Answers">
+          <Key>
+            <PropertyRef Name="AnsID" />
+          </Key>
+          <Property Name="AnsID" Type="Int32" Nullable="false" />
+          <Property Name="QuestID" Type="Int32" Nullable="false" />
+          <Property Name="AnsNum" Type="Int32" />
+          <Property Name="AnsText" Type="String" Nullable="false" MaxLength="150" Unicode="true" FixedLength="false" />
+          <Property Name="NextQuestNum" Type="Int32" />
+          <Property Name="C__sysChangeTxBsn" Type="Int64" />
+          <Property Name="C__sysInsertTxBsn" Type="Int64" />
+          <Property Name="C__sysTrackingContext" Type="Guid" />
+        </EntityType>
+        <EntityType Name="Batteries">
+          <Key>
+            <PropertyRef Name="BatteryID" />
+          </Key>
+          <Property Name="BatteryID" Type="Int32" Nullable="false" />
+          <Property Name="BatteryName" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="Description" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
+          <Property Name="C__sysChangeTxBsn" Type="Int64" />
+          <Property Name="C__sysInsertTxBsn" Type="Int64" />
+          <Property Name="C__sysTrackingContext" Type="Guid" />
+        </EntityType>
+        <EntityType Name="BatteryTests">
+          <Key>
+            <PropertyRef Name="BatteryTestID" />
+          </Key>
+          <Property Name="BatteryTestID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Name="BatteryID" Type="Int32" Nullable="false" />
+          <Property Name="TestID" Type="Int32" Nullable="false" />
+          <Property Name="Number" Type="Int32" Nullable="false" />
+          <Property Name="C__sysChangeTxBsn" Type="Int64" />
+          <Property Name="C__sysInsertTxBsn" Type="Int64" />
+          <Property Name="C__sysTrackingContext" Type="Guid" />
+        </EntityType>
+        <EntityType Name="Categories">
+          <Key>
+            <PropertyRef Name="CategoryID" />
+          </Key>
+          <Property Name="CategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="C__sysChangeTxBsn" Type="Int64" />
+          <Property Name="C__sysInsertTxBsn" Type="Int64" />
+          <Property Name="C__sysTrackingContext" Type="Guid" />
+        </EntityType>
+        <EntityType Name="Conseqs">
+          <Key>
+            <PropertyRef Name="ConseqID" />
+          </Key>
+          <Property Name="ConseqID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Name="RuleID" Type="Int32" Nullable="false" />
+          <Property Name="ConseqText" Type="String" MaxLength="1200" Unicode="true" FixedLength="false" />
+          <Property Name="TXT_TXT_N" Type="Int32" />
+          <Property Name="C__sysChangeTxBsn" Type="Int64" />
+          <Property Name="C__sysInsertTxBsn" Type="Int64" />
+          <Property Name="C__sysTrackingContext" Type="Guid" />
+        </EntityType>
+        <EntityType Name="InterpretRules">
+          <Key>
+            <PropertyRef Name="RuleID" />
+          </Key>
+          <Property Name="RuleID" Type="Int32" Nullable="false" />
+          <Property Name="InterpretID" Type="Int32" Nullable="false" />
+          <Property Name="RuleText" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
+          <Property Name="CON_TXT_N" Type="Int32" />
+          <Property Name="C__sysChangeTxBsn" Type="Int64" />
+          <Property Name="C__sysInsertTxBsn" Type="Int64" />
+          <Property Name="C__sysTrackingContext" Type="Guid" />
+        </EntityType>
+        <EntityType Name="Interprets">
+          <Key>
+            <PropertyRef Name="InterpretID" />
+          </Key>
+          <Property Name="InterpretID" Type="Int32" Nullable="false" />
+          <Property Name="InterpretName" Type="String" Nullable="false" MaxLength="60" Unicode="true" FixedLength="false" />
+          <Property Name="InterpretShortName" Type="String" Nullable="false" MaxLength="6" Unicode="true" FixedLength="false" />
+          <Property Name="C__sysChangeTxBsn" Type="Int64" />
+          <Property Name="C__sysInsertTxBsn" Type="Int64" />
+          <Property Name="C__sysTrackingContext" Type="Guid" />
+        </EntityType>
+        <EntityType Name="Questions">
+          <Key>
+            <PropertyRef Name="QuestID" />
+          </Key>
+          <Property Name="QuestID" Type="Int32" Nullable="false" />
+          <Property Name="TestID" Type="Int32" Nullable="false" />
+          <Property Name="QuestText" Type="String" Nullable="false" MaxLength="240" Unicode="true" FixedLength="false" />
+          <Property Name="QuestType" Type="Int32" Nullable="false" />
+          <Property Name="QuestNum" Type="Int32" />
+          <Property Name="QuestImg" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="C__sysChangeTxBsn" Type="Int64" />
+          <Property Name="C__sysInsertTxBsn" Type="Int64" />
+          <Property Name="C__sysTrackingContext" Type="Guid" />
+        </EntityType>
+        <EntityType Name="QuestTypes">
+          <Key>
+            <PropertyRef Name="QuestTypeID" />
+          </Key>
+          <Property Name="QuestTypeID" Type="Int32" Nullable="false" />
+          <Property Name="TypeName" Type="String" Nullable="false" MaxLength="150" Unicode="true" FixedLength="false" />
+          <Property Name="C__sysChangeTxBsn" Type="Int64" />
+          <Property Name="C__sysInsertTxBsn" Type="Int64" />
+          <Property Name="C__sysTrackingContext" Type="Guid" />
+        </EntityType>
+        <EntityType Name="Scales">
+          <Key>
+            <PropertyRef Name="ScaleID" />
+          </Key>
+          <Property Name="ScaleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Name="ScaleName" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="ScaleShortName" Type="String" MaxLength="2" Unicode="true" FixedLength="false" />
+          <Property Name="TestID" Type="Int32" Nullable="false" />
+          <Property Name="BallAVR" Type="Double" />
+          <Property Name="BallMin" Type="Double" />
+          <Property Name="BallMax" Type="Double" />
+          <Property Name="BallSTD" Type="Double" />
+          <Property Name="Point0" Type="Double" />
+          <Property Name="Point1" Type="Double" />
+          <Property Name="Point2" Type="Double" />
+          <Property Name="Point3" Type="Double" />
+          <Property Name="Point4" Type="Double" />
+          <Property Name="C__sysChangeTxBsn" Type="Int64" />
+          <Property Name="C__sysInsertTxBsn" Type="Int64" />
+          <Property Name="C__sysTrackingContext" Type="Guid" />
+        </EntityType>
+        <EntityType Name="ScaleWeights">
+          <Key>
+            <PropertyRef Name="ScaleWeightID" />
+          </Key>
+          <Property Name="ScaleWeightID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Name="AnsID" Type="Int32" />
+          <Property Name="ScaleID" Type="Int32" />
+          <Property Name="Weight" Type="Double" />
+          <Property Name="C__sysChangeTxBsn" Type="Int64" />
+          <Property Name="C__sysInsertTxBsn" Type="Int64" />
+          <Property Name="C__sysTrackingContext" Type="Guid" />
+        </EntityType>
+        <EntityType Name="Tests">
+          <Key>
+            <PropertyRef Name="TestID" />
+          </Key>
+          <Property Name="TestID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Name="ShortName" Type="String" Nullable="false" MaxLength="5" Unicode="true" FixedLength="false" />
+          <Property Name="FullName" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="CategoryID" Type="Int32" Nullable="false" />
+          <Property Name="Author" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Date" Type="DateTime" />
+          <Property Name="Description" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
+          <Property Name="TestingCount" Type="Int32" Nullable="false" />
+          <Property Name="Preamble" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="HorisontalAnswers" Type="Boolean" Nullable="false" />
+          <Property Name="C__sysChangeTxBsn" Type="Int64" />
+          <Property Name="C__sysInsertTxBsn" Type="Int64" />
+          <Property Name="C__sysTrackingContext" Type="Guid" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Name="UserName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Password" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Priv" Type="Int32" Nullable="false" />
+          <Property Name="nName" Type="String" MaxLength="250" Unicode="true" FixedLength="false" />
+          <Property Name="Ban" Type="Byte" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="350" Unicode="true" FixedLength="false" />
+          <Property Name="Active" Type="Byte" Nullable="false" />
+          <Property Name="AID" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Expiration" Type="Int32" />
+          <Property Name="LastArchive" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
+          <Property Name="LastIdExaminee" Type="Int32" Nullable="false" />
+          <Property Name="C__sysChangeTxBsn" Type="Int64" />
+          <Property Name="C__sysInsertTxBsn" Type="Int64" />
+          <Property Name="C__sysTrackingContext" Type="Guid" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="professor_testingModelStoreContainer" CdmEntityContainer="professor_testingEntities">
+          <EntitySetMapping Name="Answers"><EntityTypeMapping TypeName="professor_testingModel.Answers"><MappingFragment StoreEntitySet="Answers">
+            <ScalarProperty Name="AnsID" ColumnName="AnsID" />
+            <ScalarProperty Name="QuestID" ColumnName="QuestID" />
+            <ScalarProperty Name="AnsNum" ColumnName="AnsNum" />
+            <ScalarProperty Name="AnsText" ColumnName="AnsText" />
+            <ScalarProperty Name="NextQuestNum" ColumnName="NextQuestNum" />
+            <ScalarProperty Name="C__sysChangeTxBsn" ColumnName="__sysChangeTxBsn" />
+            <ScalarProperty Name="C__sysInsertTxBsn" ColumnName="__sysInsertTxBsn" />
+            <ScalarProperty Name="C__sysTrackingContext" ColumnName="__sysTrackingContext" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Batteries"><EntityTypeMapping TypeName="professor_testingModel.Batteries"><MappingFragment StoreEntitySet="Batteries">
+            <ScalarProperty Name="BatteryID" ColumnName="BatteryID" />
+            <ScalarProperty Name="BatteryName" ColumnName="BatteryName" />
+            <ScalarProperty Name="Description" ColumnName="Description" />
+            <ScalarProperty Name="C__sysChangeTxBsn" ColumnName="__sysChangeTxBsn" />
+            <ScalarProperty Name="C__sysInsertTxBsn" ColumnName="__sysInsertTxBsn" />
+            <ScalarProperty Name="C__sysTrackingContext" ColumnName="__sysTrackingContext" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="BatteryTests"><EntityTypeMapping TypeName="professor_testingModel.BatteryTests"><MappingFragment StoreEntitySet="BatteryTests">
+            <ScalarProperty Name="BatteryTestID" ColumnName="BatteryTestID" />
+            <ScalarProperty Name="BatteryID" ColumnName="BatteryID" />
+            <ScalarProperty Name="TestID" ColumnName="TestID" />
+            <ScalarProperty Name="Number" ColumnName="Number" />
+            <ScalarProperty Name="C__sysChangeTxBsn" ColumnName="__sysChangeTxBsn" />
+            <ScalarProperty Name="C__sysInsertTxBsn" ColumnName="__sysInsertTxBsn" />
+            <ScalarProperty Name="C__sysTrackingContext" ColumnName="__sysTrackingContext" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Categories"><EntityTypeMapping TypeName="professor_testingModel.Categories"><MappingFragment StoreEntitySet="Categories">
+            <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+            <ScalarProperty Name="Name" ColumnName="Name" />
+            <ScalarProperty Name="C__sysChangeTxBsn" ColumnName="__sysChangeTxBsn" />
+            <ScalarProperty Name="C__sysInsertTxBsn" ColumnName="__sysInsertTxBsn" />
+            <ScalarProperty Name="C__sysTrackingContext" ColumnName="__sysTrackingContext" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Conseqs"><EntityTypeMapping TypeName="professor_testingModel.Conseqs"><MappingFragment StoreEntitySet="Conseqs">
+            <ScalarProperty Name="ConseqID" ColumnName="ConseqID" />
+            <ScalarProperty Name="RuleID" ColumnName="RuleID" />
+            <ScalarProperty Name="ConseqText" ColumnName="ConseqText" />
+            <ScalarProperty Name="TXT_TXT_N" ColumnName="TXT_TXT_N" />
+            <ScalarProperty Name="C__sysChangeTxBsn" ColumnName="__sysChangeTxBsn" />
+            <ScalarProperty Name="C__sysInsertTxBsn" ColumnName="__sysInsertTxBsn" />
+            <ScalarProperty Name="C__sysTrackingContext" ColumnName="__sysTrackingContext" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="InterpretRules"><EntityTypeMapping TypeName="professor_testingModel.InterpretRules"><MappingFragment StoreEntitySet="InterpretRules">
+            <ScalarProperty Name="RuleID" ColumnName="RuleID" />
+            <ScalarProperty Name="InterpretID" ColumnName="InterpretID" />
+            <ScalarProperty Name="RuleText" ColumnName="RuleText" />
+            <ScalarProperty Name="CON_TXT_N" ColumnName="CON_TXT_N" />
+            <ScalarProperty Name="C__sysChangeTxBsn" ColumnName="__sysChangeTxBsn" />
+            <ScalarProperty Name="C__sysInsertTxBsn" ColumnName="__sysInsertTxBsn" />
+            <ScalarProperty Name="C__sysTrackingContext" ColumnName="__sysTrackingContext" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Interprets"><EntityTypeMapping TypeName="professor_testingModel.Interprets"><MappingFragment StoreEntitySet="Interprets">
+            <ScalarProperty Name="InterpretID" ColumnName="InterpretID" />
+            <ScalarProperty Name="InterpretName" ColumnName="InterpretName" />
+            <ScalarProperty Name="InterpretShortName" ColumnName="InterpretShortName" />
+            <ScalarProperty Name="C__sysChangeTxBsn" ColumnName="__sysChangeTxBsn" />
+            <ScalarProperty Name="C__sysInsertTxBsn" ColumnName="__sysInsertTxBsn" />
+            <ScalarProperty Name="C__sysTrackingContext" ColumnName="__sysTrackingContext" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Questions"><EntityTypeMapping TypeName="professor_testingModel.Questions"><MappingFragment StoreEntitySet="Questions">
+            <ScalarProperty Name="QuestID" ColumnName="QuestID" />
+            <ScalarProperty Name="TestID" ColumnName="TestID" />
+            <ScalarProperty Name="QuestText" ColumnName="QuestText" />
+            <ScalarProperty Name="QuestType" ColumnName="QuestType" />
+            <ScalarProperty Name="QuestNum" ColumnName="QuestNum" />
+            <ScalarProperty Name="QuestImg" ColumnName="QuestImg" />
+            <ScalarProperty Name="C__sysChangeTxBsn" ColumnName="__sysChangeTxBsn" />
+            <ScalarProperty Name="C__sysInsertTxBsn" ColumnName="__sysInsertTxBsn" />
+            <ScalarProperty Name="C__sysTrackingContext" ColumnName="__sysTrackingContext" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="QuestTypes"><EntityTypeMapping TypeName="professor_testingModel.QuestTypes"><MappingFragment StoreEntitySet="QuestTypes">
+            <ScalarProperty Name="QuestTypeID" ColumnName="QuestTypeID" />
+            <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+            <ScalarProperty Name="C__sysChangeTxBsn" ColumnName="__sysChangeTxBsn" />
+            <ScalarProperty Name="C__sysInsertTxBsn" ColumnName="__sysInsertTxBsn" />
+            <ScalarProperty Name="C__sysTrackingContext" ColumnName="__sysTrackingContext" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Scales"><EntityTypeMapping TypeName="professor_testingModel.Scales"><MappingFragment StoreEntitySet="Scales">
+            <ScalarProperty Name="ScaleID" ColumnName="ScaleID" />
+            <ScalarProperty Name="ScaleName" ColumnName="ScaleName" />
+            <ScalarProperty Name="ScaleShortName" ColumnName="ScaleShortName" />
+            <ScalarProperty Name="TestID" ColumnName="TestID" />
+            <ScalarProperty Name="BallAVR" ColumnName="BallAVR" />
+            <ScalarProperty Name="BallMin" ColumnName="BallMin" />
+            <ScalarProperty Name="BallMax" ColumnName="BallMax" />
+            <ScalarProperty Name="BallSTD" ColumnName="BallSTD" />
+            <ScalarProperty Name="Point0" ColumnName="Point0" />
+            <ScalarProperty Name="Point1" ColumnName="Point1" />
+            <ScalarProperty Name="Point2" ColumnName="Point2" />
+            <ScalarProperty Name="Point3" ColumnName="Point3" />
+            <ScalarProperty Name="Point4" ColumnName="Point4" />
+            <ScalarProperty Name="C__sysChangeTxBsn" ColumnName="__sysChangeTxBsn" />
+            <ScalarProperty Name="C__sysInsertTxBsn" ColumnName="__sysInsertTxBsn" />
+            <ScalarProperty Name="C__sysTrackingContext" ColumnName="__sysTrackingContext" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="ScaleWeights"><EntityTypeMapping TypeName="professor_testingModel.ScaleWeights"><MappingFragment StoreEntitySet="ScaleWeights">
+            <ScalarProperty Name="ScaleWeightID" ColumnName="ScaleWeightID" />
+            <ScalarProperty Name="AnsID" ColumnName="AnsID" />
+            <ScalarProperty Name="ScaleID" ColumnName="ScaleID" />
+            <ScalarProperty Name="Weight" ColumnName="Weight" />
+            <ScalarProperty Name="C__sysChangeTxBsn" ColumnName="__sysChangeTxBsn" />
+            <ScalarProperty Name="C__sysInsertTxBsn" ColumnName="__sysInsertTxBsn" />
+            <ScalarProperty Name="C__sysTrackingContext" ColumnName="__sysTrackingContext" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tests"><EntityTypeMapping TypeName="professor_testingModel.Tests"><MappingFragment StoreEntitySet="Tests">
+            <ScalarProperty Name="TestID" ColumnName="TestID" />
+            <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+            <ScalarProperty Name="FullName" ColumnName="FullName" />
+            <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+            <ScalarProperty Name="Author" ColumnName="Author" />
+            <ScalarProperty Name="Date" ColumnName="Date" />
+            <ScalarProperty Name="Description" ColumnName="Description" />
+            <ScalarProperty Name="TestingCount" ColumnName="TestingCount" />
+            <ScalarProperty Name="Preamble" ColumnName="Preamble" />
+            <ScalarProperty Name="HorisontalAnswers" ColumnName="HorisontalAnswers" />
+            <ScalarProperty Name="C__sysChangeTxBsn" ColumnName="__sysChangeTxBsn" />
+            <ScalarProperty Name="C__sysInsertTxBsn" ColumnName="__sysInsertTxBsn" />
+            <ScalarProperty Name="C__sysTrackingContext" ColumnName="__sysTrackingContext" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Users"><EntityTypeMapping TypeName="professor_testingModel.Users"><MappingFragment StoreEntitySet="Users">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="UserName" ColumnName="UserName" />
+            <ScalarProperty Name="Password" ColumnName="Password" />
+            <ScalarProperty Name="Priv" ColumnName="Priv" />
+            <ScalarProperty Name="nName" ColumnName="nName" />
+            <ScalarProperty Name="Ban" ColumnName="Ban" />
+            <ScalarProperty Name="Email" ColumnName="Email" />
+            <ScalarProperty Name="Active" ColumnName="Active" />
+            <ScalarProperty Name="AID" ColumnName="AID" />
+            <ScalarProperty Name="Expiration" ColumnName="Expiration" />
+            <ScalarProperty Name="LastArchive" ColumnName="LastArchive" />
+            <ScalarProperty Name="LastIdExaminee" ColumnName="LastIdExaminee" />
+            <ScalarProperty Name="C__sysChangeTxBsn" ColumnName="__sysChangeTxBsn" />
+            <ScalarProperty Name="C__sysInsertTxBsn" ColumnName="__sysInsertTxBsn" />
+            <ScalarProperty Name="C__sysTrackingContext" ColumnName="__sysTrackingContext" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="False" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="LocalDbModel">
+        <EntityTypeShape EntityType="professor_testingModel.Answers" Width="1.5" PointX="0.75" PointY="0.75" Height="2.4352670254309969" IsExpanded="true" />
+        <EntityTypeShape EntityType="professor_testingModel.Batteries" Width="1.5" PointX="2.75" PointY="0.75" Height="2.07283211171627" IsExpanded="true" />
+        <EntityTypeShape EntityType="professor_testingModel.BatteryTests" Width="1.5" PointX="2.75" PointY="3.75" Height="2.2540495685736328" IsExpanded="true" />
+        <EntityTypeShape EntityType="professor_testingModel.Categories" Width="1.5" PointX="4.75" PointY="0.75" Height="1.8916146548589072" IsExpanded="true" />
+        <EntityTypeShape EntityType="professor_testingModel.Conseqs" Width="1.5" PointX="4.75" PointY="3.75" Height="2.2540495685736346" IsExpanded="true" />
+        <EntityTypeShape EntityType="professor_testingModel.InterpretRules" Width="1.5" PointX="6.75" PointY="0.75" Height="2.2540495685736337" IsExpanded="true" />
+        <EntityTypeShape EntityType="professor_testingModel.Interprets" Width="1.5" PointX="6.75" PointY="4.75" Height="2.07283211171627" IsExpanded="true" />
+        <EntityTypeShape EntityType="professor_testingModel.Questions" Width="1.5" PointX="0.75" PointY="7.75" Height="2.61648448228836" IsExpanded="true" />
+        <EntityTypeShape EntityType="professor_testingModel.QuestTypes" Width="1.5" PointX="2.75" PointY="7.75" Height="1.8916146548589055" IsExpanded="true" />
+        <EntityTypeShape EntityType="professor_testingModel.Scales" Width="1.5" PointX="4.75" PointY="7.75" Height="3.885006680289905" IsExpanded="true" />
+        <EntityTypeShape EntityType="professor_testingModel.ScaleWeights" Width="1.5" PointX="6.75" PointY="7.75" Height="2.2540495685736346" IsExpanded="true" />
+        <EntityTypeShape EntityType="professor_testingModel.Tests" Width="1.5" PointX="8.75" PointY="0.75" Height="3.3413543097178149" IsExpanded="true" />
+        <EntityTypeShape EntityType="professor_testingModel.Users" Width="1.5" PointX="8.75" PointY="5.75" Height="3.703789223432544" IsExpanded="true" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

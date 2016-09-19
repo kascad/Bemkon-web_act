@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/" title="\" description="">
+        <siteMapNode url="~/Default.aspx" title="Главная |"  description="Общая информация о системе Бэмкон" />
+        <siteMapNode url="~/Book.aspx" title="Научные работы и статьи |"  description="Книги в продаже, научные работы и публикации" />
+        <siteMapNode url="~/OurTeam.aspx" title="Наша команда |"  description="Информация об авторском коллективе" />
+        <siteMapNode url="~/Contact.aspx" title="Наши контакты" description="Контактные данные" />
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,968 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Archiv>
+  <name>Archives\Test_Run_04.arh</name>
+  <Examinees>
+    <Examinee>
+      <ID>1</ID>
+      <Name>Test</Name>
+      <Description>
+      </Description>
+      <Tests>
+        <Test>
+          <ID>2</ID>
+          <Name>BIO</Name>
+          <FullTime>00:03:44</FullTime>
+          <Date>24.08.2010 21:05:04</Date>
+          <IsFinished>true</IsFinished>
+          <Results>
+            <Result>
+              <QuestID>26</QuestID>
+              <QuestText>Образование, общая характеристика жизненного пути (выберите наиболее подходящий вариант ответа).</QuestText>
+              <AnsID>45</AnsID>
+              <AnsText>окончил(а) 7-9 кл. (нет аттестата о ср.образовании)</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>1</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>87</QuestID>
+              <QuestText>Служили ли Вы в армии и какое у Вас воинское звание? Отвечают и мужчины и женщины. Если женщина: 11 - военнообязанная 12 - не служила и не являюсь военнообязанной</QuestText>
+              <AnsID>693</AnsID>
+              <AnsText>младший лейтенант</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>2</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>135</QuestID>
+              <QuestText>Среднемесячный заработок (доход) на данный момент в количестве минимальных зарплат.</QuestText>
+              <AnsID>1187</AnsID>
+              <AnsText>более 50 минимальных окладов</AnsText>
+              <AnsNumber>8</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>3</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>177</QuestID>
+              <QuestText>Отрасль народного хозяйства, в которой работаете (работали):</QuestText>
+              <AnsID>1587</AnsID>
+              <AnsText>здравоохранение, просвещение</AnsText>
+              <AnsNumber>7</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>4</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>222</QuestID>
+              <QuestText>Отрасль народного хозяйства в которой работал большую часть жизни Ваш отец:</QuestText>
+              <AnsID>2067</AnsID>
+              <AnsText>служит(жил) в Вооруженных Силах, ПВ, МБРВ(КГБ) и др</AnsText>
+              <AnsNumber>9</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>5</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>269</QuestID>
+              <QuestText>Отрасль народного хозяйства, в которой работала большую часть жизни Ваша мать:</QuestText>
+              <AnsID>2541</AnsID>
+              <AnsText>строительство</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>6</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>311</QuestID>
+              <QuestText>Наличие специальности и как Вы ее оцениваете:</QuestText>
+              <AnsID>2997</AnsID>
+              <AnsText>иной ответ</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>7</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>362</QuestID>
+              <QuestText>Наличие собственной семьи: (1-8 для мужчин, 9-22 для женщин)</QuestText>
+              <AnsID>3270</AnsID>
+              <AnsText>женат, двое детей</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>8</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>415</QuestID>
+              <QuestText>Средний балл в аттестате о среднем образовании или в дипломеоб окончании среднего специального учебного заведения:</QuestText>
+              <AnsID>3737</AnsID>
+              <AnsText>только отличные оценки</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>9</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>458</QuestID>
+              <QuestText>Средний балл по общественным наукам (история, литература и др.):</QuestText>
+              <AnsID>4068</AnsID>
+              <AnsText>от 4 до 4,5 (включительно)</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>10</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>499</QuestID>
+              <QuestText>Средний балл по математике (алгебра, геометрия):</QuestText>
+              <AnsID>4529</AnsID>
+              <AnsText>от 4,О до 4,5 (включительно)</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>11</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>544</QuestID>
+              <QuestText>Сколько раз меняли место работы за последние 3 года?</QuestText>
+              <AnsID>4785</AnsID>
+              <AnsText>не менял (а)</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>12</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>588</QuestID>
+              <QuestText>Причины смены места работы:</QuestText>
+              <AnsID>5148</AnsID>
+              <AnsText>конфликты на старой работе</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>13</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>601</QuestID>
+              <QuestText>Ваше социальное происхождение:</QuestText>
+              <AnsID>5578</AnsID>
+              <AnsText>из крестьян</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>14</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>660</QuestID>
+              <QuestText>Наличие родителей</QuestText>
+              <AnsID>5865</AnsID>
+              <AnsText>воспитывался (лась) в детдоме</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>15</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>706</QuestID>
+              <QuestText>Образование родителей: (Цифры ставятся по правилу - выбранное по предложенной 5- балльной шкале (см.ответы) образование отца и матери складывается и делится пополам с округлением до целого числа)</QuestText>
+              <AnsID>6155</AnsID>
+              <AnsText>среднее специальное</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>16</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>740</QuestID>
+              <QuestText>Количество человек в семье, где Вы воспитывались (включая себя):</QuestText>
+              <AnsID>6517</AnsID>
+              <AnsText>пять-семь человек</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>17</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>791</QuestID>
+              <QuestText>Какой Вы ребенок по порядку рождения:</QuestText>
+              <AnsID>6802</AnsID>
+              <AnsText>средний</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:04</Time>
+              <QuestNumber>18</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>832</QuestID>
+              <QuestText>Место проживания большей части сознательной жизни:</QuestText>
+              <AnsID>7109</AnsID>
+              <AnsText>город до 5ОО тыс. жителей</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>19</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>862</QuestID>
+              <QuestText>Место проживания большей части жизни родителей:</QuestText>
+              <AnsID>7410</AnsID>
+              <AnsText>городо до 5ОО тыс. жителей</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:07</Time>
+              <QuestNumber>20</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>900</QuestID>
+              <QuestText>Доход в семье на одного человека в месяц в количестве минимальных зарплат.</QuestText>
+              <AnsID>7700</AnsID>
+              <AnsText>от 1О до 15 минимальных окладов</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>21</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>933</QuestID>
+              <QuestText>Возраст вступления в члены любой, в том числе в члены ВЛКСМ, молодежной организации:</QuestText>
+              <AnsID>8019</AnsID>
+              <AnsText>в 18 лет</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>22</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>956</QuestID>
+              <QuestText>Ваши спортивные достижения:</QuestText>
+              <AnsID>8280</AnsID>
+              <AnsText>третий спортивный разряд</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>23</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>997</QuestID>
+              <QuestText>Есть ли у Вас изобретения, рационализаторские предложения?</QuestText>
+              <AnsID>8513</AnsID>
+              <AnsText>есть несколько рационализаторских предложений</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>24</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1034</QuestID>
+              <QuestText>Какова численность предприятия, на котором Вы работали (работаете)?</QuestText>
+              <AnsID>8770</AnsID>
+              <AnsText>несколько тысяч человек</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>25</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1073</QuestID>
+              <QuestText>Наличие поощрений и взысканий, занесенных в трудовую книжку:</QuestText>
+              <AnsID>9022</AnsID>
+              <AnsText>нет ни благодарностей, ни взысканий</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>26</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1117</QuestID>
+              <QuestText>Участие в общественной жизни предприятия (если не работали, то в школе, ПТУ, техникуме и т.д.):</QuestText>
+              <AnsID>9315</AnsID>
+              <AnsText>активное длительный период, занимал выборные должн.</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>27</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1136</QuestID>
+              <QuestText>Есть ли у Вас правительственные награды (в том числе и награды бывшего СССР)?</QuestText>
+              <AnsID>9608</AnsID>
+              <AnsText>иные награды (общественных организаций и др.)</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>28</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1184</QuestID>
+              <QuestText>Уровень Вашей производственной квалификации:</QuestText>
+              <AnsID>9852</AnsID>
+              <AnsText>шестой разряд</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>29</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1215</QuestID>
+              <QuestText>Сколько у Вас судимостей?</QuestText>
+              <AnsID>10063</AnsID>
+              <AnsText>две</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>30</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1219</QuestID>
+              <QuestText>А теперь улыбнитесь и ответьте на несколько необычные воп- росы. Бывают ли у Вас мысли, с которыми Вам бы не хотелось делиться с окружающими?</QuestText>
+              <AnsID>10274</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>31</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1270</QuestID>
+              <QuestText>Передаете ли иногда слухи, сплетни?</QuestText>
+              <AnsID>10540</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>32</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1291</QuestID>
+              <QuestText>Опаздывали ли Вы когда-либо в школу, на работу, на встречу с кем-либо?</QuestText>
+              <AnsID>10761</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>33</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1315</QuestID>
+              <QuestText>Есть ли среди Ваших товарищей, знакомых те, кто Вам явно не нравится?</QuestText>
+              <AnsID>10979</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>34</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1335</QuestID>
+              <QuestText>Бывало ли, что Вы рассуждаете о вещах, в которых совсем не разбираетесь?</QuestText>
+              <AnsID>11204</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>35</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1367</QuestID>
+              <QuestText>Всегда ли сдерживали свои обещания, даже если это Вам не в выгоду?</QuestText>
+              <AnsID>11433</AnsID>
+              <AnsText>да</AnsText>
+              <AnsNumber>1</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>36</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1397</QuestID>
+              <QuestText>Всегда ли читаете передовицы газет?</QuestText>
+              <AnsID>11767</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>37</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1424</QuestID>
+              <QuestText>Всегда ли говорите только правду?</QuestText>
+              <AnsID>12049</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>38</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1452</QuestID>
+              <QuestText>А теперь вновь о Вашей биографии... Отношения с родителями в период юности:</QuestText>
+              <AnsID>12292</AnsID>
+              <AnsText>удовлетворительные</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>39</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1487</QuestID>
+              <QuestText>Как часто проводили свободное время вместе с родителями в период, когда Вам было 15-2О лет?</QuestText>
+              <AnsID>12635</AnsID>
+              <AnsText>почти всегда</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>40</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1529</QuestID>
+              <QuestText>Степень знакомства родителей с Вашими друзьями в период, когда Вам было 17 лет - 22 года?</QuestText>
+              <AnsID>12862</AnsID>
+              <AnsText>несколько раз видели</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>41</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1555</QuestID>
+              <QuestText>Часто ли оказывались в детстве без присмотра родителей?</QuestText>
+              <AnsID>13242</AnsID>
+              <AnsText>родители пристально контролировали поведение</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>42</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1582</QuestID>
+              <QuestText>Хотели ли ваши родители, чтобы Вы поступили в вуз?</QuestText>
+              <AnsID>13466</AnsID>
+              <AnsText>да, хотели</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>43</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1606</QuestID>
+              <QuestText>Хотели ли ваши родители, чтобы Вы поступили в техникум?</QuestText>
+              <AnsID>13668</AnsID>
+              <AnsText>относились по принципу "думай сам"</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>44</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1614</QuestID>
+              <QuestText>Воспитывала ли Вас в детстве бабушка?</QuestText>
+              <AnsID>13889</AnsID>
+              <AnsText>непродолжительное время</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>45</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1654</QuestID>
+              <QuestText>Сколько у Вас было любимых предметов в период обучения в школе, ПТУ, техникуме?</QuestText>
+              <AnsID>14157</AnsID>
+              <AnsText>таких предметов не было</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>46</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1682</QuestID>
+              <QuestText>Сколько предметов давалось с трудом?</QuestText>
+              <AnsID>14356</AnsID>
+              <AnsText>таких предметов не было</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>47</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1704</QuestID>
+              <QuestText>Полностью ли Вас удовлетворяла учеба в школе, ПТУ, техникуме?</QuestText>
+              <AnsID>14593</AnsID>
+              <AnsText>скорее да, чем нет</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:05</Time>
+              <QuestNumber>48</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1728</QuestID>
+              <QuestText>Оцените степень влияния школы (ПТУ, техникума и т.д.) на ваше воспитание:</QuestText>
+              <AnsID>14820</AnsID>
+              <AnsText>чрезвычайное и исключительно положительное влияние</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>49</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1754</QuestID>
+              <QuestText>Что Вам было характерно на момент совершеннолетия?</QuestText>
+              <AnsID>15022</AnsID>
+              <AnsText>чувствительность, переживания, низкая активность</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>50</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1768</QuestID>
+              <QuestText>Курите ли Вы?</QuestText>
+              <AnsID>15185</AnsID>
+              <AnsText>иногда</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>51</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1787</QuestID>
+              <QuestText>Когда Вы начали курить?</QuestText>
+              <AnsID>15378</AnsID>
+              <AnsText>в 5-7 классах</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>52</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1803</QuestID>
+              <QuestText>Во сколько лет Вы начали употреблять спиртные напитки (имеется в виду первое употребление алкоголя):</QuestText>
+              <AnsID>15633</AnsID>
+              <AnsText>в 1О (11) выпускном классе, ПТУ, техникуме и т.д.</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>53</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1834</QuestID>
+              <QuestText>Наиболее значительные жизненные конфликты до начала самосто-ятельного жизненного пути?</QuestText>
+              <AnsID>15842</AnsID>
+              <AnsText>не удалось выучиться на любимую профессию</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>54</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1852</QuestID>
+              <QuestText>Количество человек в референтной (Вашей самой близкой, самой ценимой) микрогруппе (учитывая себя) в период, когда Вам было от 16 до 18 лет:</QuestText>
+              <AnsID>16092</AnsID>
+              <AnsText>6-9 человек</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>55</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1876</QuestID>
+              <QuestText>Сколько было у Вас одновременно референтных микрогрупп?</QuestText>
+              <AnsID>16298</AnsID>
+              <AnsText>три и более микрогруппы</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>56</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1886</QuestID>
+              <QuestText>Для мужчин: сколько девушек входило в микрогруппу (микрогруппы)? Для женщин: сколько юношей входило в микрогруппу (микрогруппы)?</QuestText>
+              <AnsID>16499</AnsID>
+              <AnsText>четыре и более</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>57</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1908</QuestID>
+              <QuestText>Для мужчин: каков процент составляли женщины, девушки от численности микрогруппы? Для женщин: каков процент составляли мужчины, юноши от численности микрогруппы?</QuestText>
+              <AnsID>16741</AnsID>
+              <AnsText>ДЛЯ ЖЕНЩИН: менее 5О%</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>58</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1936</QuestID>
+              <QuestText>Принцип образования микрогруппы:</QuestText>
+              <AnsID>16948</AnsID>
+              <AnsText>совместное жительство</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>59</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1944</QuestID>
+              <QuestText>Были ли Вы лидером в микрогруппе, то есть инициатором всех мероприятий, человеком, чье мнение было наиболее весомым?</QuestText>
+              <AnsID>17138</AnsID>
+              <AnsText>трудно ответить определенно</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>60</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1962</QuestID>
+              <QuestText>Возрастной состав микрогруппы:</QuestText>
+              <AnsID>17332</AnsID>
+              <AnsText>старшие по возрасту</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>61</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1981</QuestID>
+              <QuestText>В микрогруппе Вы больше молчали или говорили?</QuestText>
+              <AnsID>17518</AnsID>
+              <AnsText>трудно ответить определенно</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>62</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>1999</QuestID>
+              <QuestText>Были ли у Вас модные, престижные вещи, которыми Вы выделялись из окружающих?</QuestText>
+              <AnsID>17701</AnsID>
+              <AnsText>что-то, по-видимому, было</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>63</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2029</QuestID>
+              <QuestText>Часто ли Вы болели в детстве?</QuestText>
+              <AnsID>17787</AnsID>
+              <AnsText>нет</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>64</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2043</QuestID>
+              <QuestText>Как Вы оцениваете свое здоровье в настоящее время?</QuestText>
+              <AnsID>17828</AnsID>
+              <AnsText>здоров, готов работать в ночные смены</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>65</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2065</QuestID>
+              <QuestText>Полностью ли Вас удовлетворяли взаимоотношения в микрогруппев возрасте 16-18 лет?</QuestText>
+              <AnsID>17908</AnsID>
+              <AnsText>нет, находился(лась) там в силу отсутствия иного</AnsText>
+              <AnsNumber>2</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>66</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2074</QuestID>
+              <QuestText>Как Вы оцениваете свой характер на момент совершеннолетия?</QuestText>
+              <AnsID>17980</AnsID>
+              <AnsText>"нервный", издерганный</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>67</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2091</QuestID>
+              <QuestText>Ваши специфические способности:</QuestText>
+              <AnsID>18049</AnsID>
+              <AnsText>артистические</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>68</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2121</QuestID>
+              <QuestText>Оцените уровень вашего физического развития на момент начала самостоятельного жизненного пути:</QuestText>
+              <AnsID>18174</AnsID>
+              <AnsText>слабое физическое развитие</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>69</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2131</QuestID>
+              <QuestText>Есть ли среди ваших родственников психически больные лица?</QuestText>
+              <AnsID>18243</AnsID>
+              <AnsText>да, среди дальних родственников</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>70</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2151</QuestID>
+              <QuestText>Работали ли Вы на каникулах в период обучения в школе, ПТУ, среднем учебном заведении, в вузе?</QuestText>
+              <AnsID>18338</AnsID>
+              <AnsText>трудно ответить определенно</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:04</Time>
+              <QuestNumber>71</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2164</QuestID>
+              <QuestText>Кому Вы доверяли самые сокровенные мысли?</QuestText>
+              <AnsID>18427</AnsID>
+              <AnsText>девушке, любимой (другу, любимому)</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>72</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2181</QuestID>
+              <QuestText>Кто знал о Вашей любви?</QuestText>
+              <AnsID>18520</AnsID>
+              <AnsText>девушка (подруга)</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>73</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2203</QuestID>
+              <QuestText>Часто ли Ваше мнение расходилось с мнением родителей?</QuestText>
+              <AnsID>18604</AnsID>
+              <AnsText>изредка, иногда</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>74</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2219</QuestID>
+              <QuestText>Часто ли Ваше мнение расходилось с мнением друзей?</QuestText>
+              <AnsID>18691</AnsID>
+              <AnsText>изредка, иногда</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>75</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2232</QuestID>
+              <QuestText>Часто ли ваше мнение расходилось (расходится) с мнением жены(мужа), вашей девушки (вашего друга), близкой знакомой (близкого знакомого)?</QuestText>
+              <AnsID>18779</AnsID>
+              <AnsText>изредка, иногда</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>76</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2253</QuestID>
+              <QuestText>Часто ли Ваше мнение расходилось с мнением учителей?</QuestText>
+              <AnsID>18876</AnsID>
+              <AnsText>редко</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>77</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2257</QuestID>
+              <QuestText>Если ваше мнение расходится с мнением окружающих, поступали ли Вы согласно своим взглядам?</QuestText>
+              <AnsID>18963</AnsID>
+              <AnsText>чаще всего поступаю как большинство</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>78</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2284</QuestID>
+              <QuestText>Считаете ли Вы себя настойчивой личностью?</QuestText>
+              <AnsID>19044</AnsID>
+              <AnsText>трудно сказать</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>79</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2299</QuestID>
+              <QuestText>После веселья кто кому чаще помогает?</QuestText>
+              <AnsID>19130</AnsID>
+              <AnsText>обоюдная помощь</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>80</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2314</QuestID>
+              <QuestText>Сколько раз оставались в школе на второй год?</QuestText>
+              <AnsID>19220</AnsID>
+              <AnsText>ни разу</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>81</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2333</QuestID>
+              <QuestText>Что Вы намеревались делать, не поступив в техникум, вуз? после армии (для мужчин)?</QuestText>
+              <AnsID>19303</AnsID>
+              <AnsText>получить хорошую гражданскую специальность</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>82</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2337</QuestID>
+              <QuestText>Биографическое событие, оказавшее на Вас ярко выраженное положительное влияние как на личность?</QuestText>
+              <AnsID>19387</AnsID>
+              <AnsText>окончание среднего специального учебного заведения</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>83</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2355</QuestID>
+              <QuestText>Биографическое событие, оказавшее на Вас ярко выраженное отрицательное влияние:</QuestText>
+              <AnsID>19552</AnsID>
+              <AnsText>ссора с девушкой, неудачная любовь</AnsText>
+              <AnsNumber>7</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>84</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2379</QuestID>
+              <QuestText>Участвовали ли Вы в поддержании правопорядка?</QuestText>
+              <AnsID>19664</AnsID>
+              <AnsText>трудно ответить определенно</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>85</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2383</QuestID>
+              <QuestText>Были ли у Вас приводы в милицию?</QuestText>
+              <AnsID>19739</AnsID>
+              <AnsText>не помню</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>86</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2398</QuestID>
+              <QuestText>Были ли судимы Ваши друзья?</QuestText>
+              <AnsID>19816</AnsID>
+              <AnsText>да, несколько человек</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>87</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2412</QuestID>
+              <QuestText>Были ли судимы Ваши родственники?</QuestText>
+              <AnsID>19928</AnsID>
+              <AnsText>да, но далекие родственники</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>88</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2427</QuestID>
+              <QuestText>Для мужчин: с желанием ли Вы служили (служите) в армии? Для женщин: 8 - в армии не служила</QuestText>
+              <AnsID>20020</AnsID>
+              <AnsText>трудно ответить определенно</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>89</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2444</QuestID>
+              <QuestText>Ваши успехи в боевой подготовке?</QuestText>
+              <AnsID>20115</AnsID>
+              <AnsText>отличник, но подтверждающего документа нет</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>90</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2468</QuestID>
+              <QuestText>Сколько Вам лет?</QuestText>
+              <AnsID>20276</AnsID>
+              <AnsText>62 года</AnsText>
+              <AnsNumber>62</AnsNumber>
+              <Time>00:00:06</Time>
+              <QuestNumber>91</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2483</QuestID>
+              <QuestText>Сколько лет вашему старшему ребенку?</QuestText>
+              <AnsID>20334</AnsID>
+              <AnsText>4 года</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:01</Time>
+              <QuestNumber>92</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2494</QuestID>
+              <QuestText>Сколько лет Вашему младшему ребенку?</QuestText>
+              <AnsID>20463</AnsID>
+              <AnsText>4 года</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>93</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2507</QuestID>
+              <QuestText>Сколько у Вас детей?</QuestText>
+              <AnsID>20584</AnsID>
+              <AnsText>5 детей</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>94</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2516</QuestID>
+              <QuestText>Для мужчин: работает ли у Вас жена? Для женщин: работает ли у Вас муж?</QuestText>
+              <AnsID>20630</AnsID>
+              <AnsText>холост</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>95</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2528</QuestID>
+              <QuestText>Есть ли у Вас квартира, жилье?</QuestText>
+              <AnsID>20680</AnsID>
+              <AnsText>есть жилье и реальные перспективы по его улучшению</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:03</Time>
+              <QuestNumber>96</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2538</QuestID>
+              <QuestText>Ваш трудовой стаж (ставится количество лет):</QuestText>
+              <AnsID>20766</AnsID>
+              <AnsText>3 года</AnsText>
+              <AnsNumber>3</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>97</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2550</QuestID>
+              <QuestText>Какое время Вы безработный(ая)?</QuestText>
+              <AnsID>20927</AnsID>
+              <AnsText>6 лет</AnsText>
+              <AnsNumber>6</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>98</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2564</QuestID>
+              <QuestText>Сколько человек у Вас на иждивении?</QuestText>
+              <AnsID>20977</AnsID>
+              <AnsText>4 человека</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>99</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2576</QuestID>
+              <QuestText>Ухаживаете ли Вы за больными родственниками?</QuestText>
+              <AnsID>21057</AnsID>
+              <AnsText>иной ответ</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>100</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2580</QuestID>
+              <QuestText>Как Вы оцениваете свое материальное положение:</QuestText>
+              <AnsID>21124</AnsID>
+              <AnsText>как отличное</AnsText>
+              <AnsNumber>5</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>101</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2592</QuestID>
+              <QuestText>Как Вы оцениваете свое психическое состояние:</QuestText>
+              <AnsID>21187</AnsID>
+              <AnsText>как хорошее</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>102</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2603</QuestID>
+              <QuestText>Считаете ли Вы, что многого достигли в жизни?</QuestText>
+              <AnsID>21251</AnsID>
+              <AnsText>в общем-то да</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>103</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2610</QuestID>
+              <QuestText>Считаю, что мой отец:</QuestText>
+              <AnsID>21309</AnsID>
+              <AnsText>достиг многого в жизни</AnsText>
+              <AnsNumber>4</AnsNumber>
+              <Time>00:00:02</Time>
+              <QuestNumber>104</QuestNumber>
+            </Result>
+            <Result>
+              <QuestID>2620</QuestID>
+              <QuestText>Оцените себя: насколько Вы реализовали свои способности за прошедшую жизнь. Ставится условный процент. Допустим - 1ОО (реализовал себя на 1ОО процентов); 33 (реализовал себя на 1/3) и т.д.</QuestText>
+              <AnsID>21369</AnsID>
+              <AnsText>10%</AnsText>
+              <AnsNumber>10</AnsNumber>
+              <Time>00:00:05</Time>
+              <QuestNumber>105</QuestNumber>
+            </Result>
+          </Results>
+        </Test>
+      </Tests>
+    </Examinee>
+  </Examinees>
+</Archiv>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Images/advert.gif</ImageUrl>
+    <NavigateUrl>~/Book.aspx</NavigateUrl>
+    <AlternateText>Реклама</AlternateText>
+    <Width>200</Width>
+    <Height>270</Height>
+  </Ad>
+</Advertisements>
